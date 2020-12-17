@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Linq;
+using CsvHelper;
+using CsvHelper.Configuration.Attributes;
 
 namespace ChooseEntertainmentItem
 {
@@ -8,76 +12,66 @@ namespace ChooseEntertainmentItem
     {
         static void Main(string[] args)
         {
-            var list = new List<DoneItem>{
-                new DoneItem
-                {
-                    Name = "Limites da fundação",
-                    Tags =  "livro,scifi,space-opera",
-                    DoneDate = new DateTime(2020,12,16)
-                },
-                new DoneItem
-                {
-                    Name = "Sandman 7",
-                    Tags =  "hq,livro",
-                    DoneDate = new DateTime(2020,10,30)
-                },
-            };
-
-            var list2 = new List<BacklogItem>{
-                new BacklogItem
-                {
-                    Name = "Cyberpunk 2077",
-                    Tags = "jogo,scifi,cyberpunk,fps"
-                },
-                new BacklogItem
-                {
-                    Name = "O Islã e a formação da Europa",
-                    Tags = "hq,historia,oriental"
-                }
-            };
-
-            var peso = list.Count;
             var tags = new Dictionary<string, int>();
-            foreach (var item in list.OrderByDescending(_ => _.DoneDate))
+
+            using (var reader = new StreamReader("items/doneItems.csv"))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                foreach (var tag in item.Tags.Split(','))
+                var doneItems = csv.GetRecords<DoneItem>().ToList();
+
+                var peso = doneItems.Count();
+                foreach (var item in doneItems.OrderByDescending(_ => _.DoneDate))
                 {
-                    if (tags.Keys.Contains(tag))
-                        tags[tag] += peso;
-                    else
-                        tags.Add(tag, peso);
+                    foreach (var tag in item.Tags.Split('/'))
+                    {
+                        if (tags.Keys.Contains(tag))
+                            tags[tag] += peso;
+                        else
+                            tags.Add(tag, peso);
+                    }
+                    peso--;
                 }
-                peso--;
             }
 
-            foreach (var item in list2)
+            using (var reader = new StreamReader("items/backlogItems.csv"))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                foreach (var tag in tags.Keys)
+                // csv.Configuration.HeaderValidated = (null, null) => { return null; });
+                var backlogItems = csv.GetRecords<BacklogItem>().ToList();
+                foreach (var item in backlogItems)
                 {
-                    if (item.Tags.Split(',').ToList().Contains(tag))
-                        item.Score += tags[tag];
+                    foreach (var tag in tags.Keys)
+                    {
+                        if (item.Tags.Split('/').ToList().Contains(tag))
+                            item.Score += tags[tag];
+                    }
                 }
-            }
 
-            foreach (var item in list2.OrderBy(_ => _.Score).OrderBy(_ => _.Price))
-                Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+                foreach (var item in backlogItems.OrderBy(_ => _.Score).OrderBy(_ => _.Price))
+                    Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+            }
         }
     }
 
     class DoneItem : Item
     {
+        [Index(2)]
         public DateTime DoneDate { get; set; }
     }
 
     class BacklogItem : Item
     {
-        public int Score { get; set; }
+        [Index(2)]
         public double Price { get; set; }
+        [Ignore]
+        public int Score { get; set; }
     }
 
     abstract class Item
     {
+        [Index(0)]
         public string Name { get; set; }
+        [Index(1)]
         public string Tags { get; set; }
     }
 }
