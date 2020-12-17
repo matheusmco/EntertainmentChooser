@@ -13,13 +13,13 @@ namespace ChooseEntertainmentItem
                 {
                     Name = "Limites da fundação",
                     Tags =  "livro,scifi,space-opera",
-                    Date = new DateTime(2020,12,16)
+                    DoneDate = new DateTime(2020,12,16)
                 },
                 new DoneItem
                 {
                     Name = "Sandman 7",
                     Tags =  "hq,livro",
-                    Date = new DateTime(2020,10,30)
+                    DoneDate = new DateTime(2020,10,30)
                 },
             };
 
@@ -38,7 +38,7 @@ namespace ChooseEntertainmentItem
 
             var peso = list.Count;
             var tags = new Dictionary<string, int>();
-            foreach (var item in list.OrderByDescending(_ => _.Date))
+            foreach (var item in list.OrderByDescending(_ => _.DoneDate))
             {
                 foreach (var tag in item.Tags.Split(','))
                 {
@@ -59,19 +59,20 @@ namespace ChooseEntertainmentItem
                 }
             }
 
-            foreach (var item in list2.OrderBy(_ => _.Score))
+            foreach (var item in list2.OrderBy(_ => _.Score).OrderBy(_ => _.Price))
                 Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
         }
     }
 
     class DoneItem : Item
     {
-        public DateTime Date { get; set; }
+        public DateTime DoneDate { get; set; }
     }
 
     class BacklogItem : Item
     {
         public int Score { get; set; }
+        public double Price { get; set; }
     }
 
     abstract class Item
