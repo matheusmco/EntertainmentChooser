@@ -36,7 +36,6 @@ namespace ChooseEntertainmentItem
             using (var reader = new StreamReader("items/backlogItems.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                // csv.Configuration.HeaderValidated = (null, null) => { return null; });
                 var backlogItems = csv.GetRecords<BacklogItem>().ToList();
                 foreach (var item in backlogItems)
                 {
@@ -55,13 +54,11 @@ namespace ChooseEntertainmentItem
 
     class DoneItem : Item
     {
-        [Index(2)]
         public DateTime DoneDate { get; set; }
     }
 
     class BacklogItem : Item
     {
-        [Index(2)]
         public double Price { get; set; }
         [Ignore]
         public int Score { get; set; }
@@ -69,9 +66,7 @@ namespace ChooseEntertainmentItem
 
     abstract class Item
     {
-        [Index(0)]
         public string Name { get; set; }
-        [Index(1)]
         public string Tags { get; set; }
     }
 }
