@@ -12,11 +12,12 @@ namespace ChooseEntertainmentItem
     {
         static void Main(string[] args)
         {
-            var isIncludePrice = args[0] == "S";
-            var itemType = args.Count() < 2 ? "ALL" : args[1];
+            var path = args[0];
+            var isIncludePrice = args.Count() >= 2 && args[1] == "S";
+            var itemType = args.Count() < 3 ? "ALL" : args[2];
             var tags = new Dictionary<string, int>();
 
-            using (var reader = new StreamReader("items/doneItems.csv"))
+            using (var reader = new StreamReader($"{path}/doneItems.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var doneItems = csv.GetRecords<DoneItem>().ToList();
@@ -35,7 +36,7 @@ namespace ChooseEntertainmentItem
                 }
             }
 
-            using (var reader = new StreamReader("items/backlogItems.csv"))
+            using (var reader = new StreamReader($"{path}/backlogItems.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var backlogItems = csv.GetRecords<BacklogItem>().ToList();
