@@ -12,6 +12,8 @@ namespace ChooseEntertainmentItem
     {
         static void Main(string[] args)
         {
+            var isIncludePrice = args[0] == "S";
+            var itemType = args.Count() < 2 ? "ALL" : args[1];
             var tags = new Dictionary<string, int>();
 
             using (var reader = new StreamReader("items/doneItems.csv"))
@@ -37,6 +39,9 @@ namespace ChooseEntertainmentItem
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var backlogItems = csv.GetRecords<BacklogItem>().ToList();
+                if (itemType != "ALL")
+                    backlogItems = backlogItems.Where(_ => _.Tags.Split('/').Contains(itemType)).ToList();
+
                 foreach (var item in backlogItems)
                 {
                     foreach (var tag in tags.Keys)
@@ -44,9 +49,11 @@ namespace ChooseEntertainmentItem
                         if (item.Tags.Split('/').ToList().Contains(tag))
                             item.Score += tags[tag];
                     }
+                    if (isIncludePrice)
+                        item.Score += (int)item.Price;
                 }
 
-                foreach (var item in backlogItems.OrderBy(_ => _.Score).OrderBy(_ => _.Price))
+                foreach (var item in backlogItems.OrderBy(_ => _.Score).ThenBy(_ => _.Price))
                     Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
             }
         }
@@ -54,7 +61,7 @@ namespace ChooseEntertainmentItem
 
     class DoneItem : Item
     {
-        public DateTime DoneDate { get; set; }
+        public string DoneDate { get; set; }
     }
 
     class BacklogItem : Item
