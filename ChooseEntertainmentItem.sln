@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChooseEntertainmentItem", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChooseEntertainmentItem.Tests", "ChooseEntertainmentItem.Tests\ChooseEntertainmentItem.Tests.csproj", "{7AE32AAD-16C3-4D37-A28D-9B06580D3537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChooseEntertainmentItem.Domain", "ChooseEntertainmentItem.Domain\ChooseEntertainmentItem.Domain.csproj", "{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{7AE32AAD-16C3-4D37-A28D-9B06580D3537}.Release|x64.Build.0 = Release|Any CPU
 		{7AE32AAD-16C3-4D37-A28D-9B06580D3537}.Release|x86.ActiveCfg = Release|Any CPU
 		{7AE32AAD-16C3-4D37-A28D-9B06580D3537}.Release|x86.Build.0 = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|x64.Build.0 = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Debug|x86.Build.0 = Debug|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|x64.ActiveCfg = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|x64.Build.0 = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5026F7DA-5147-49B2-9FD5-6C0EA35F351A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

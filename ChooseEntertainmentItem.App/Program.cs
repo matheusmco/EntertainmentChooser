@@ -13,10 +13,13 @@ namespace ChooseEntertainmentItem
         static void Main(string[] args)
         {
             var path = args[0];
-            var isIncludePrice = args.Count() >= 2 && args[1] == "S";
+            var isIncludePrice = args.Count() >= 2 && args[1].ToUpper() == "S";
             var itemType = args.Count() < 3 ? "ALL" : args[2];
             var tags = new Dictionary<string, int>();
 
+            // TODO: move to Domain
+
+            // TODO: use repository
             using (var reader = new StreamReader($"{path}/doneItems.csv"))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {

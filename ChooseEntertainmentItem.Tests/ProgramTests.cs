@@ -2,13 +2,9 @@ using NUnit.Framework;
 
 namespace ChooseEntertainmentItem.Tests
 {
-    public class Tests
+    public class ProgramTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
+        // TODO: test against domain, using repository
         [Test]
         public void Test1()
         {
