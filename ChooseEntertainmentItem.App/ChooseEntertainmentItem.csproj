@@ -7,6 +7,11 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="18.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChooseEntertainmentItem.Domain\ChooseEntertainmentItem.Domain.csproj" />
   </ItemGroup>
 
 </Project>
