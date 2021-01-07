@@ -8,8 +8,6 @@ namespace ChooseEntertainmentItem.Domain.Models
     public class BacklogItem : Item
     {
         public double Price { get; set; }
-        // TODO: create csv mapper - this shoudn't be on model
-        //[Ignore]
         public int Score { get; set; }
     }
 
