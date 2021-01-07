@@ -24,17 +24,17 @@ namespace ChooseEntertainmentItem.Domain.Services
             var tags = new Dictionary<string, int>();
 
             var doneItems = repository.GetDoneItems();
-            var peso = doneItems.Count();
+            var points = doneItems.Count();
             foreach (var item in doneItems.OrderByDescending(_ => _.DoneDate))
             {
                 foreach (var tag in item.Tags.Split('/'))
                 {
                     if (tags.Keys.Contains(tag))
-                        tags[tag] += peso;
+                        tags[tag] += points;
                     else
-                        tags.Add(tag, peso);
+                        tags.Add(tag, points);
                 }
-                peso--;
+                points--;
             }
 
             var backlogItems = repository.GetBacklogItems();
@@ -53,21 +53,6 @@ namespace ChooseEntertainmentItem.Domain.Services
             }
 
             return backlogItems;
-
-            // using (var reader = new StreamReader($"{path}/doneItems.csv"))
-            // using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            // {
-            //     var doneItems = csv.GetRecords<DoneItem>().ToList();
-
-            //     
-            // }
-
-            // using (var reader = new StreamReader($"{path}/backlogItems.csv"))
-            // using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            // {
-            //     var backlogItems = csv.GetRecords<BacklogItem>().ToList();
-
-            // }
         }
     }
 }

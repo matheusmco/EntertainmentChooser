@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChooseEntertainmentItem.Domain\ChooseEntertainmentItem.Domain.csproj" />
+    <ProjectReference Include="..\ChooseEntertainmentItem.Infra\ChooseEntertainmentItem.Infra.csproj" />
   </ItemGroup>
 
 </Project>

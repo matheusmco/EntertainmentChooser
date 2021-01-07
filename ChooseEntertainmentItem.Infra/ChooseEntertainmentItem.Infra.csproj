@@ -4,6 +4,10 @@
     <ProjectReference Include="..\ChooseEntertainmentItem.Domain\ChooseEntertainmentItem.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="csvhelper" Version="19.0.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
