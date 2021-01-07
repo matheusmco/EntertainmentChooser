@@ -14,7 +14,7 @@ namespace ChooseEntertainmentItem.Domain.Services
     {
         private IItemRepository repository;
 
-        public ItemService(IItemRepository repository, string path)
+        public ItemService(IItemRepository repository)
         {
             this.repository = repository;
         }
