@@ -12,7 +12,6 @@ namespace ChooseEntertainmentItem
     class Program
     {
         static string path;
-        static IConfiguration configuration;
 
         static void Main(string[] args)
         {
@@ -38,13 +37,9 @@ namespace ChooseEntertainmentItem
 
         private static void ConfigureServices(IServiceCollection services)
         {
-            var configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", false)
-                .Build();
-            services.AddSingleton<ItemsFilesNamesOptions>(configuration.GetSection("ItemsFiles").Get<ItemsFilesNamesOptions>());
-
-            services.AddScoped<IItemService, ItemService>();
-            services.AddScoped<IItemRepository, CsvItemRepository>();
+            services.AddOptions();
+            services.AddServices();
+            services.AddRepositories();
         }
     }
 }
