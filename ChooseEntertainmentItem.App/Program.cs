@@ -1,9 +1,8 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
-using ChooseEntertainmentItem.App;
 using ChooseEntertainmentItem.Domain.Repositories;
 using ChooseEntertainmentItem.Domain.Services;
+using ChooseEntertainmentItem.Infra.Configs;
 using ChooseEntertainmentItem.Infra.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,11 +41,10 @@ namespace ChooseEntertainmentItem
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", false)
                 .Build();
-
-            var itemsFilesNames = configuration.GetSection("ItemsFilesNames").Get<ItemsFilesNames>();
+            services.AddSingleton<ItemsFilesNamesOptions>(configuration.GetSection("ItemsFiles").Get<ItemsFilesNamesOptions>());
 
             services.AddScoped<IItemService, ItemService>();
-            services.AddScoped<IItemRepository>(_ => new CsvItemRepository($"{path}/{itemsFilesNames.Backlog}", $"{path}/{itemsFilesNames.Done}"));
+            services.AddScoped<IItemRepository, CsvItemRepository>();
         }
     }
 }
