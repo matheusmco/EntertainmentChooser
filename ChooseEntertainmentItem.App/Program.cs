@@ -1,31 +1,45 @@
 ﻿using System;
 using System.Linq;
-using ChooseEntertainmentItem.Domain.Repositories;
 using ChooseEntertainmentItem.Domain.Services;
-using ChooseEntertainmentItem.Infra.Configs;
-using ChooseEntertainmentItem.Infra.Repositories;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog;
+using Serilog.Core;
+using Serilog.Events;
 
 namespace ChooseEntertainmentItem
 {
     class Program
     {
         static string path;
+        static Logger logger;
 
         static void Main(string[] args)
         {
-            path = args[0];
-            var serviceProvider = GetServiceProvider();
-            var shouldIncludePrice = args.Count() >= 2 && args[1].ToUpper() == "S";
-            var itemType = args.Count() < 3 ? "ALL" : args[2];
+            logger = new LoggerConfiguration()
+                .Enrich.FromLogContext()
+                .WriteTo.Console()
+                .WriteTo.File("log/error.log", restrictedToMinimumLevel: LogEventLevel.Error)
+                .WriteTo.File("log/log.log", restrictedToMinimumLevel: LogEventLevel.Information)
+                .CreateLogger();
 
-            var itemService = serviceProvider.GetService<IItemService>();
+            try
+            {
+                path = args[0];
+                var serviceProvider = GetServiceProvider();
+                var shouldIncludePrice = args.Count() >= 2 && args[1].ToUpper() == "S";
+                var itemType = args.Count() < 3 ? "ALL" : args[2];
 
-            var backlogItems = itemService.CalculateBacklogItemsPriority(shouldIncludePrice, itemType);
+                var itemService = serviceProvider.GetService<IItemService>();
 
-            foreach (var item in backlogItems.OrderBy(_ => _.Score).ThenBy(_ => _.Price))
-                Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+                var backlogItems = itemService.CalculateBacklogItemsPriority(shouldIncludePrice, itemType);
+
+                foreach (var item in backlogItems.OrderBy(_ => _.Score).ThenBy(_ => _.Price))
+                    Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+            }
+            catch (Exception ex)
+            {
+                logger.Fatal(ex, "Error on startup");
+            }
         }
 
         private static ServiceProvider GetServiceProvider()
@@ -37,7 +51,12 @@ namespace ChooseEntertainmentItem
 
         private static void ConfigureServices(IServiceCollection services)
         {
-            services.AddOptions();
+            services.AddLogging(_ =>
+            {
+                _.AddSerilog(logger: logger, dispose: true);
+            });
+
+            services.AddCustomOptions();
             services.AddServices();
             services.AddRepositories();
         }

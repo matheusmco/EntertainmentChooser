@@ -5,7 +5,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class OptionsInstaller
     {
-        public static IServiceCollection AddOptions(this IServiceCollection services)
+        public static IServiceCollection AddCustomOptions(this IServiceCollection services)
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", false)
