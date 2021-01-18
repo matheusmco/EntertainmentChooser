@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using ChooseEntertainmentItem.Domain.Models;
 using ChooseEntertainmentItem.Domain.Repositories;
+using ChooseEntertainmentItem.Infra.Configs;
 using ChooseEntertainmentItem.Infra.Mappers;
 using CsvHelper;
 
@@ -11,18 +12,16 @@ namespace ChooseEntertainmentItem.Infra.Repositories
 {
     public class CsvItemRepository : IItemRepository
     {
-        private readonly string backlogFilePath;
-        private readonly string doneFilePath;
+        private readonly ItemsFilesNamesOptions options;
 
-        public CsvItemRepository(string backlogFilePath, string doneFilePath)
+        public CsvItemRepository(ItemsFilesNamesOptions options)
         {
-            this.backlogFilePath = backlogFilePath;
-            this.doneFilePath = doneFilePath;
+            this.options = options;
         }
 
         public IEnumerable<BacklogItem> GetBacklogItems()
         {
-            using (var reader = new StreamReader(backlogFilePath))
+            using (var reader = new StreamReader(Path.Combine(options.Path, options.BacklogFileName)))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 csv.Configuration.RegisterClassMap<BacklogItemMap>();
@@ -32,7 +31,7 @@ namespace ChooseEntertainmentItem.Infra.Repositories
 
         public IEnumerable<DoneItem> GetDoneItems()
         {
-            using (var reader = new StreamReader(doneFilePath))
+            using (var reader = new StreamReader(Path.Combine(options.Path, options.DoneFileName)))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 csv.Configuration.RegisterClassMap<DoneItemMap>();
