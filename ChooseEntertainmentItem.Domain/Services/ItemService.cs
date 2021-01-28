@@ -12,18 +12,20 @@ namespace ChooseEntertainmentItem.Domain.Services
 
     public class ItemService : IItemService
     {
-        private IItemRepository repository;
+        private IBacklogItemRepository backlogRepository;
+        private IDoneItemRepository doneRepository;
 
-        public ItemService(IItemRepository repository)
+        public ItemService(IBacklogItemRepository backlogRepository, IDoneItemRepository doneRepository)
         {
-            this.repository = repository;
+            this.backlogRepository = backlogRepository;
+            this.doneRepository = doneRepository;
         }
 
         public IEnumerable<BacklogItem> CalculateBacklogItemsPriority(bool shouldIncludePrice, string itemType)
         {
             var tags = new Dictionary<string, int>();
 
-            var doneItems = repository.GetDoneItems();
+            var doneItems = doneRepository.Get();
             var points = doneItems.Count();
             foreach (var item in doneItems.OrderByDescending(_ => _.DoneDate))
             {
@@ -37,7 +39,7 @@ namespace ChooseEntertainmentItem.Domain.Services
                 points--;
             }
 
-            var backlogItems = repository.GetBacklogItems();
+            var backlogItems = backlogRepository.Get();
             if (itemType != "ALL")
                 backlogItems = backlogItems.Where(_ => _.Tags.Split('/').Contains(itemType)).ToList();
 

@@ -8,28 +8,23 @@ using ChooseEntertainmentItem.Infra.Configs;
 using ChooseEntertainmentItem.Infra.Mappers;
 using CsvHelper;
 
-namespace ChooseEntertainmentItem.Infra.Repositories
+namespace ChooseEntertainmentItem.Infra.Repositories.CSV
 {
-    public class CsvItemRepository : IItemRepository
+    public class CsvDoneItemRepository : IDoneItemRepository
     {
         private readonly ItemsFilesNamesOptions options;
 
-        public CsvItemRepository(ItemsFilesNamesOptions options)
+        public CsvDoneItemRepository(ItemsFilesNamesOptions options)
         {
             this.options = options;
         }
 
-        public IEnumerable<BacklogItem> GetBacklogItems()
+        public void Add(DoneItem item)
         {
-            using (var reader = new StreamReader(Path.Combine(options.Path, options.BacklogFileName)))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                csv.Configuration.RegisterClassMap<BacklogItemMap>();
-                return csv.GetRecords<BacklogItem>().ToList();
-            }
+            throw new System.NotImplementedException();
         }
 
-        public IEnumerable<DoneItem> GetDoneItems()
+        public IEnumerable<DoneItem> Get()
         {
             using (var reader = new StreamReader(Path.Combine(options.Path, options.DoneFileName)))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))

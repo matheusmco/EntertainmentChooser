@@ -1,5 +1,5 @@
 using ChooseEntertainmentItem.Domain.Repositories;
-using ChooseEntertainmentItem.Infra.Repositories;
+using ChooseEntertainmentItem.Infra.Repositories.CSV;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -7,7 +7,8 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IItemRepository, CsvItemRepository>();
+            services.AddScoped<IBacklogItemRepository, CsvBacklogItemRepository>();
+            services.AddScoped<IDoneItemRepository, CsvDoneItemRepository>();
             return services;
         }
     }
