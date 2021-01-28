@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ChooseEntertainmentItem.Infra.EFContexts
 {
-    public abstract class BaseContext : DbContext
+    public abstract class Context : DbContext
     {
         protected virtual string ConnectionString { get; set; }
 
@@ -11,7 +11,7 @@ namespace ChooseEntertainmentItem.Infra.EFContexts
         public DbSet<DoneItem> DoneItems { get; set; }
     }
 
-    public class SqliteContext : BaseContext
+    public class SqliteContext : Context
     {
 
         public SqliteContext(string connectionString)
