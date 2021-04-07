@@ -5,7 +5,7 @@ namespace ChooseEntertainmentItem.Domain.Repositories
 {
     public interface IBacklogItemRepository
     {
-        IEnumerable<BacklogItem> Get();
+        IEnumerable<BacklogItem> All();
         void Add(BacklogItem item);
     }
 }

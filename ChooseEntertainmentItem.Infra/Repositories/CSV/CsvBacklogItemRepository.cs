@@ -24,7 +24,7 @@ namespace ChooseEntertainmentItem.Infra.Repositories.CSV
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<BacklogItem> Get()
+        public IEnumerable<BacklogItem> All()
         {
             using (var reader = new StreamReader(Path.Combine(options.Path, options.BacklogFileName)))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))

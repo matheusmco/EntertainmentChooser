@@ -24,7 +24,7 @@ namespace ChooseEntertainmentItem.Infra.Repositories.CSV
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<DoneItem> Get()
+        public IEnumerable<DoneItem> All()
         {
             using (var reader = new StreamReader(Path.Combine(options.Path, options.DoneFileName)))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))

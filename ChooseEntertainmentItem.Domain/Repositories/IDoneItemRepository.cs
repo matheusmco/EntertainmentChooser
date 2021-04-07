@@ -5,7 +5,7 @@ namespace ChooseEntertainmentItem.Domain.Repositories
 {
     public interface IDoneItemRepository
     {
-        IEnumerable<DoneItem> Get();
+        IEnumerable<DoneItem> All();
         void Add(DoneItem item);
     }
 }

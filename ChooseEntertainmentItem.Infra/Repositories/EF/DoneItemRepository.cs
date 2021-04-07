@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using ChooseEntertainmentItem.Domain.Models;
 using ChooseEntertainmentItem.Domain.Repositories;
 using ChooseEntertainmentItem.Infra.EFContexts;
@@ -20,7 +21,7 @@ namespace ChooseEntertainmentItem.Infra.Repositories.EF
             context.SaveChanges();
         }
 
-        public IEnumerable<DoneItem> Get()
-            => context.DoneItems;
+        public IEnumerable<DoneItem> All()
+            => context.DoneItems.ToList();
     }
 }

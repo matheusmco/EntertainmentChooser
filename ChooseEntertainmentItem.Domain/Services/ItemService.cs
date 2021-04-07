@@ -25,7 +25,7 @@ namespace ChooseEntertainmentItem.Domain.Services
         {
             var tags = new Dictionary<string, int>();
 
-            var doneItems = doneRepository.Get();
+            var doneItems = doneRepository.All();
             var points = doneItems.Count();
             foreach (var item in doneItems.OrderByDescending(_ => _.DoneDate))
             {
@@ -39,7 +39,7 @@ namespace ChooseEntertainmentItem.Domain.Services
                 points--;
             }
 
-            var backlogItems = backlogRepository.Get();
+            var backlogItems = backlogRepository.All();
             if (itemType != "ALL")
                 backlogItems = backlogItems.Where(_ => _.Tags.Split('/').Contains(itemType)).ToList();
 
