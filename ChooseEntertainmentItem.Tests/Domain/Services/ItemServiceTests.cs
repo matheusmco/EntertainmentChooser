@@ -17,7 +17,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
         {
             var backlogRepository = new Mock<IBacklogItemRepository>();
             var price = 1;
-            backlogRepository.Setup(_ => _.Get()).Returns(new List<BacklogItem> { new BacklogItem
+            backlogRepository.Setup(_ => _.All()).Returns(new List<BacklogItem> { new BacklogItem
             {
                 Name = "BacklogTest",
                 Tags = "test",
@@ -37,7 +37,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
         {
             var repository = new Mock<IBacklogItemRepository>();
             var price = 1;
-            repository.Setup(_ => _.Get()).Returns(new List<BacklogItem> { new BacklogItem
+            repository.Setup(_ => _.All()).Returns(new List<BacklogItem> { new BacklogItem
             {
                 Name = "BacklogTest",
                 Tags = "test",
@@ -56,7 +56,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
         public void CalculateBacklogItemsPriority_FilterByType_ReturnFiltered()
         {
             var repository = new Mock<IBacklogItemRepository>();
-            repository.Setup(_ => _.Get()).Returns(new List<BacklogItem>
+            repository.Setup(_ => _.All()).Returns(new List<BacklogItem>
             {
                 new BacklogItem
                 {
@@ -80,7 +80,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
         public void CalculateBacklogItemsPriority_DoNotFilterByType_ReturnAll()
         {
             var repository = new Mock<IBacklogItemRepository>();
-            repository.Setup(_ => _.Get()).Returns(new List<BacklogItem>
+            repository.Setup(_ => _.All()).Returns(new List<BacklogItem>
             {
                 new BacklogItem
                 {
@@ -107,7 +107,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
             if (doneRepository == null)
             {
                 var doneRepositoryMock = new Mock<IDoneItemRepository>();
-                doneRepositoryMock.Setup(_ => _.Get()).Returns(new List<DoneItem>
+                doneRepositoryMock.Setup(_ => _.All()).Returns(new List<DoneItem>
                 {
                     new DoneItem
                     {
