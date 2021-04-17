@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using ChooseEntertainmentItem.Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,7 +35,11 @@ namespace ChooseEntertainmentItem
                 var backlogItems = itemService.CalculateBacklogItemsPriority(shouldIncludePrice, itemType);
 
                 foreach (var item in backlogItems.OrderBy(_ => _.Score).ThenBy(_ => _.Price))
-                    Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+                {
+                    // TODO: use parameters
+                    var type = item.Tags.Split('/').FirstOrDefault(_ => new string[] { "JOGO", "FILME", "LIVRO" }.Contains(_.ToUpper())) ?? string.Empty;
+                    Console.WriteLine($"Type: {type.ToUpper()}, Name: {item.Name}, Score: {item.Score}");
+                }
             }
             catch (Exception ex)
             {
