@@ -46,10 +46,10 @@ namespace ChooseEntertainmentItem.Domain.Services
                 foreach (var tag in tags.Keys)
                 {
                     if (item.Tags.Split('/').ToList().Contains(tag))
-                        item.Score += tags[tag];
+                        item.AddScore(tags[tag]);
                 }
                 if (shouldIncludePrice)
-                    item.Score += (int)item.Price;
+                    item.AddScore((int)item.Price);
             }
 
             return backlogItems;

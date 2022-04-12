@@ -36,7 +36,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
             // TODO: change ALL - use nulllable param
             var items = service.CalculateBacklogItemsPriority(true, "ALL");
 
-            Assert.AreEqual(expectedScore, items.First().Score);
+            Assert.AreEqual(expectedScore, items.First().GetFinalScore());
         }
 
         [Test]
@@ -62,7 +62,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
 
             var items = service.CalculateBacklogItemsPriority(false, "ALL");
 
-            Assert.AreEqual(expectedScore, items.First().Score);
+            Assert.AreEqual(expectedScore, items.First().GetFinalScore());
         }
 
         [Test]

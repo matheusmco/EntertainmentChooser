@@ -33,8 +33,9 @@ namespace ChooseEntertainmentItem
 
                 var backlogItems = itemService.CalculateBacklogItemsPriority(shouldIncludePrice, itemType);
 
-                foreach (var item in backlogItems.OrderBy(_ => _.Score).ThenBy(_ => _.Price))
-                    Console.WriteLine($"Name: {item.Name}, Score: {item.Score}");
+                // TODO: create a map
+                foreach (var item in backlogItems.OrderBy(_ => _.GetFinalScore()).ThenBy(_ => _.Price))
+                    Console.WriteLine($"Name: {item.Name}, Score: {item.GetFinalScore()}");
             }
             catch (Exception ex)
             {
