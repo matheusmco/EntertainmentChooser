@@ -10,6 +10,7 @@ namespace ChooseEntertainmentItem.Infra.Mappers
             Map(_ => _.Name).Name("Name");
             Map(_ => _.Tags).Name("Tags");
             Map(_ => _.Price).Name("Price");
+            Map(_ => _.RawTier).Name("Tier");
         }
     }
 
