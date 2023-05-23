@@ -56,6 +56,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
                 Tags = "test",
                 Price = price
             }});
+            // TODO: create a MakeItemService and fix this tests
             var service = new ItemService(repository.Object);
             var tagScore = 1;
             var expectedScore = tagScore;

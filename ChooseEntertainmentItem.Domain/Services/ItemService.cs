@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using ChooseEntertainmentItem.Domain.Configs;
 using ChooseEntertainmentItem.Domain.Models;
 using ChooseEntertainmentItem.Domain.Repositories;
 
@@ -7,19 +8,21 @@ namespace ChooseEntertainmentItem.Domain.Services
 {
     public interface IItemService
     {
-        IEnumerable<BacklogItem> CalculateBacklogItemsPriority(bool shouldIncludePrice, string itemType);
+        IEnumerable<BacklogItem> CalculateBacklogItemsPriority();
     }
 
     public class ItemService : IItemService
     {
         private IItemRepository repository;
+        private readonly ItemsFiltersOptions options;
 
-        public ItemService(IItemRepository repository)
+        public ItemService(IItemRepository repository, ItemsFiltersOptions options)
         {
             this.repository = repository;
+            this.options = options;
         }
 
-        public IEnumerable<BacklogItem> CalculateBacklogItemsPriority(bool shouldIncludePrice, string itemType)
+        public IEnumerable<BacklogItem> CalculateBacklogItemsPriority()
         {
             var tags = new Dictionary<string, int>();
 
@@ -38,8 +41,8 @@ namespace ChooseEntertainmentItem.Domain.Services
             }
 
             var backlogItems = repository.GetBacklogItems();
-            if (itemType != "ALL")
-                backlogItems = backlogItems.Where(_ => _.Tags.Split('/').Contains(itemType)).ToList();
+            if (options.ItemType != "ALL")
+                backlogItems = backlogItems.Where(_ => _.Tags.Split('/').Contains(options.ItemType)).ToList();
 
             foreach (var item in backlogItems)
             {
@@ -48,7 +51,7 @@ namespace ChooseEntertainmentItem.Domain.Services
                     if (item.Tags.Split('/').ToList().Contains(tag))
                         item.AddScore(tags[tag]);
                 }
-                if (shouldIncludePrice)
+                if (options.ShouldIncludePrice)
                     item.AddScore((int)item.Price);
             }
 

@@ -6,60 +6,54 @@ using Serilog;
 using Serilog.Core;
 using Serilog.Events;
 
-namespace ChooseEntertainmentItem
+namespace ChooseEntertainmentItem;
+class Program
 {
-    class Program
+    static Logger logger;
+
+    static void Main(string[] args)
     {
-        static string path;
-        static Logger logger;
+        logger = new LoggerConfiguration()
+            .Enrich.FromLogContext()
+            .WriteTo.Console()
+            .WriteTo.File("log/error.log", restrictedToMinimumLevel: LogEventLevel.Error)
+            .WriteTo.File("log/log.log", restrictedToMinimumLevel: LogEventLevel.Information)
+            .CreateLogger();
 
-        static void Main(string[] args)
+        try
         {
-            logger = new LoggerConfiguration()
-                .Enrich.FromLogContext()
-                .WriteTo.Console()
-                .WriteTo.File("log/error.log", restrictedToMinimumLevel: LogEventLevel.Error)
-                .WriteTo.File("log/log.log", restrictedToMinimumLevel: LogEventLevel.Information)
-                .CreateLogger();
+            var services = GetServices();
 
-            try
-            {
-                path = args[0];
-                var serviceProvider = GetServiceProvider();
-                var shouldIncludePrice = args.Count() >= 2 && args[1].ToUpper() == "S";
-                var itemType = args.Count() < 3 ? "ALL" : args[2];
+            var itemService = services.GetService<IItemService>();
 
-                var itemService = serviceProvider.GetService<IItemService>();
+            var backlogItems = itemService.CalculateBacklogItemsPriority();
 
-                var backlogItems = itemService.CalculateBacklogItemsPriority(shouldIncludePrice, itemType);
-
-                // TODO: create a map
-                foreach (var item in backlogItems.OrderBy(_ => _.GetFinalScore()).ThenBy(_ => _.Price))
-                    Console.WriteLine($"Name: {item.Name}, Score: {item.GetFinalScore()}");
-            }
-            catch (Exception ex)
-            {
-                logger.Fatal(ex, "Error on startup");
-            }
+            // TODO: override to string
+            foreach (var item in backlogItems.OrderBy(_ => _.GetFinalScore()).ThenBy(_ => _.Price))
+                Console.WriteLine($"Name: {item.Name}, Score: {item.GetFinalScore()}");
         }
-
-        private static ServiceProvider GetServiceProvider()
+        catch (Exception ex)
         {
-            var services = new ServiceCollection();
-            ConfigureServices(services);
-            return services.BuildServiceProvider();
+            logger.Fatal(ex, "Error on startup");
         }
+    }
 
-        private static void ConfigureServices(IServiceCollection services)
+    private static ServiceProvider GetServices()
+    {
+        var services = new ServiceCollection();
+        ConfigureServices(services);
+        return services.BuildServiceProvider();
+    }
+
+    private static void ConfigureServices(IServiceCollection services)
+    {
+        services.AddLogging(_ =>
         {
-            services.AddLogging(_ =>
-            {
-                _.AddSerilog(logger: logger, dispose: true);
-            });
+            _.AddSerilog(logger: logger, dispose: true);
+        });
 
-            services.AddCustomOptions();
-            services.AddServices();
-            services.AddRepositories();
-        }
+        services.AddCustomOptions();
+        services.AddServices();
+        services.AddRepositories();
     }
 }

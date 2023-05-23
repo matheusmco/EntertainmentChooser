@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using ChooseEntertainmentItem.Domain.Configs;
 using ChooseEntertainmentItem.Domain.Models;
 using ChooseEntertainmentItem.Domain.Repositories;
-using ChooseEntertainmentItem.Infra.Configs;
 using ChooseEntertainmentItem.Infra.Mappers;
 using CsvHelper;
 
