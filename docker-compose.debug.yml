@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  chooseentertainmentitem:
+    image: chooseentertainmentitem
+    build:
+      context: .
+      dockerfile: ChooseEntertainmentItem.App/Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw
