@@ -1,4 +1,4 @@
-using ChooseEntertainmentItem.Infra.Configs;
+using ChooseEntertainmentItem.Domain.Configs;
 using Microsoft.Extensions.Configuration;
 
 namespace Microsoft.Extensions.DependencyInjection
@@ -11,6 +11,7 @@ namespace Microsoft.Extensions.DependencyInjection
                 .AddJsonFile("appsettings.json", false)
                 .Build();
             services.AddSingleton<ItemsFilesNamesOptions>(configuration.GetSection("ItemsFiles").Get<ItemsFilesNamesOptions>());
+            services.AddSingleton<ItemsFiltersOptions>(configuration.GetSection("ItemsFilters").Get<ItemsFiltersOptions>());
 
             return services;
         }
