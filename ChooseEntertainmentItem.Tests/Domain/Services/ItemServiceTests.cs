@@ -29,12 +29,11 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
                 Tags = "test",
                 Price = price
             }});
-            var service = new ItemService(repository.Object);
+            var service = MakeService(repository.Object);
             var tagScore = 1;
             var expectedScore = tagScore + price;
 
-            // TODO: change ALL - use nulllable param
-            var items = service.CalculateBacklogItemsPriority(true, "ALL");
+            var items = service.CalculateBacklogItemsPriority();
 
             Assert.AreEqual(expectedScore, items.First().GetFinalScore());
         }
@@ -56,12 +55,11 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
                 Tags = "test",
                 Price = price
             }});
-            // TODO: create a MakeItemService and fix this tests
-            var service = new ItemService(repository.Object);
+            var service = MakeService(repository.Object);
             var tagScore = 1;
             var expectedScore = tagScore;
 
-            var items = service.CalculateBacklogItemsPriority(false, "ALL");
+            var items = service.CalculateBacklogItemsPriority();
 
             Assert.AreEqual(expectedScore, items.First().GetFinalScore());
         }
@@ -92,9 +90,9 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
                     Tags = "test/type2",
                 }
             });
-            var service = new ItemService(repository.Object);
+            var service = MakeService(repository.Object);
 
-            var items = service.CalculateBacklogItemsPriority(false, "type1");
+            var items = service.CalculateBacklogItemsPriority();
 
             Assert.AreEqual(1, items.Count());
         }
@@ -125,11 +123,14 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
                     Tags = "test/type2",
                 }
             });
-            var service = new ItemService(repository.Object);
+            var service = MakeService(repository.Object);
 
-            var items = service.CalculateBacklogItemsPriority(false, "ALL");
+            var items = service.CalculateBacklogItemsPriority();
 
             Assert.AreEqual(2, items.Count());
         }
+
+        private ItemService MakeService(IItemRepository repository)
+            => new ItemService(repository, null);
     }
 }
