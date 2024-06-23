@@ -1,13 +1,5 @@
 Name,Tags,Price,Tier
-people make games,audiovisual/documentario/nao-ficcao/jogos/historia/biografia/people-make-games,0,1
 gaming historian,audiovisual/documentario/nao-ficcao/jogos/historia/biografia/gaming-historian/computacao,0,1
-abbadons gate,livro/the-expanse/scifi/ficcao/espaco/fantasia/aventura,26,1
-CRPG book,livro/nao-ficcao/jogos/historia/rpg/crpg/artes/resenhas,0,1
-1889,livro/historia/nao-ficcao/brasil/literatura-brasileira/laurentino-gomes,0,1
-frostpunk,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,0,1
-the life and suffering of sir brante,jogo/rpg/indie/aventura/simulacao/narrativa/estrategia/medieval/dark-fantasy/visual-novel,38,1
-star trek judgment rites,jogo/star-trek/aventura/point-and-click/scifi/pc,20,1
-pokemon gold,jogo/pokemon/rpg/aventura/anime/jrpg/fantasia/nintendo,0,1
 stray dog,audiovisual/ficcao/drama/kurosawa/japao/classico/cult/crime/misterio/suspense,0,1
 scandal,audiovisual/ficcao/drama/kurosawa/japao/classico/cult,0,1
 um domingo maravilhoso,audiovisual/ficcao/drama/kurosawa/japao/classico/cult/romance,0,1
@@ -27,3 +19,9 @@ encouraçado potemkin,audiovisual/ficcao/russia/drama/historia/suspense/guerra/m
 o assassinato de jesse james,audiovisual/ficcao/faroeste/historia/biografia/drama/eua,0,1
 watchmen,audiovisual/ficcao/quadrinhos/super-heroi/scifi/acao/drama,0,1
 star trek voyager s1,audiovisual/ficcao/scifi/espaco/star-trek/acao/aventura,0,1
+CRPG book,livro/nao-ficcao/jogos/historia/rpg/crpg/artes/resenhas,0,1
+abbadons gate,livro/the-expanse/scifi/ficcao/espaco/fantasia/aventura,0,1
+frostpunk,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,0,1
+the life and suffering of sir brante,jogo/rpg/indie/aventura/simulacao/narrativa/estrategia/medieval/dark-fantasy/visual-novel,20,1
+star trek judgment rites,jogo/star-trek/aventura/point-and-click/scifi/pc,10,1
+donkey kong country tropical freeze,jogo/plataforma/aventura/donkey-kong/familia,60,1

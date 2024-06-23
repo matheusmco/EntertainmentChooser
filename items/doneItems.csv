@@ -39,7 +39,7 @@ The Witcher 3,jogo/witcher/rpg/fantasia/aventura/acao/playstation,2019-01-01
 Mario+Rabbits,jogo/estrategia/mario/aventura/nintendo/rabbids/acao,2019-01-01
 Quarantine Circular,jogo/indie/aventura/visual-novel/scifi/nintendo/narrativa,2019-01-01
 Fifa 19,jogo/esporte/futebol/multiplayer/gerenciamento/fifa/playstation,2019-01-01
-Spider-man,jogo/homem-aranha/acao/open-world/super-heroi/aventura/third-person/combate/parkour/narrativa/exploracao/stealth/hq/beatn-up/rpg/scifi/bonito/adulto/playstation,2019-01-01
+Spider-man,jogo/homem-aranha/acao/mundo-aberto/super-heroi/aventura/terceira-pessoa/combate/parkour/narrativa/exploracao/stealth/hq/beatn-up/rpg/scifi/bonito/adulto/playstation,2019-01-01
 Tacoma,jogo/scifi/indie/espaco/suspense/cyberpunk/pc,2019-06-16
 Orwell,jogo/politica/scifi/indie/crime/visual-novel/point-and-click/pc,2019-06-20
 Link's Awakening,zelda/jogo/aventura/fantasia/exploracao/acao/nintendo,2019-09-24
@@ -108,7 +108,7 @@ O Senhor dos Anéis As Duas Torres,audiovisual/ficcao/fantasia/senhor-dos-aneis/
 Yakuza 0,jogo/acao/yakuza/crime/comedia/rpg/playstation/drama/jrpg/japao/beatn-up,2021-03-18
 Furi,jogo/acao/bullet-hell/indie/hackn-slash/anime/playstation,2020-04-16
 Final Fantasy 7 Remake,jogo/rpg/fantasia/aventura/scifi/cyberpunk/final-fantasy/ff7/playstation,2020-05-01
-Ghost of Tsushima,jogo/open-world/acao/acao/exploracao/aventura/playstation,2020-09-11
+Ghost of Tsushima,jogo/mundo-aberto/acao/acao/exploracao/aventura/playstation,2020-09-11
 Rise of Tomb Raider,jogo/acao/aventura/puzzle/shooter/rpg/playstation,2020-09-22
 De Volta para o Futuro,audiovisual/ficcao/scifi/comedia/viagem-no-tempo/aventura/romance,2020-12-19
 O Natal dos Muppets,audiovisual/ficcao/comedia/natal/muppets/aventura/drama,2020-12-25
@@ -140,7 +140,7 @@ O Senhor dos Anéis O Retorno do Rei,livro/ficcao/senhor-dos-aneis/tolkien/avent
 Dragon Quest XI,jogo/dragon-quest/rpg/jrpg/fantasia/anime/pc,2021-02-14
 avgn season 4,audiovisual/nao-ficcao/documentario/jogos/comedia/avgn/resenhas/historia,2021-02-13
 super mario 3d land,jogo/plataforma/mario/aventura/nintendo/coletaton/nintendo,2021-02-19
-A Short Hike,jogo/aventura/exploracao/indie/open-world/wholesome/pc,2021-02-20
+A Short Hike,jogo/aventura/exploracao/indie/mundo-aberto/wholesome/pc,2021-02-20
 destravado,audiovisual/documentario/jogos/nao-ficcao/brasil/historia/omelete,2021-02-21
 zelda link berween worlds,zelda/jogo/aventura/fantasia/acao/nintendo/nintendo,2021-02-28
 o escandalo,audiovisual/ficcao/drama/historia/nao-ficcao/jornalismo/oscar,2021-03-07
@@ -186,7 +186,7 @@ Halo 3 odst,jogo/fps/scifi/espaco/halo/acao/pc,2021-06-19
 a viagem de chihiro,audiovisual/ficcao/japao/ghibli/fantasia/animacao/infantil,2021-06-20
 Sapiens,livro/nao-ficcao/historia/ciencias/filosofia/antropologia/sociologia,2021-06-24
 astros playroom,jogo/ficcao/aventura/plataforma/coletaton/terceira-pessoa/playstation,2021-06-27
-Spider-man Miles Morales,jogo/homem-aranha/acao/open-world/super-heroi/aventura/third-person/combate/parkour/narrativa/exploracao/stealth/hq/beatn-up/rpg/scifi/bonito/adulto/playstation,2021-07-04
+Spider-man Miles Morales,jogo/homem-aranha/acao/mundo-aberto/super-heroi/aventura/terceira-pessoa/combate/parkour/narrativa/exploracao/stealth/hq/beatn-up/rpg/scifi/bonito/adulto/playstation,2021-07-04
 a companhia negra,livro/ficcao/glen-cook/companhia-negra/fantasia/dark-fantasy/epica,2021-07-08
 uma noite em miami,audiovisual/ficcao/historia/drama/racismo/politica/eua,2021-07-10
 memorias de uma gueixa,audiovisual/ficcao/drama/historia/japao/eua/guerra,2021-07-11
@@ -264,7 +264,7 @@ anti-heroi americano,audiovisual/ficcao/drama/comedia/biografia/historia/nao-fic
 A quinta estacao,livro/ficcao/n-k-jemisin/fantasia/scifi/distopia/pos-apocaliptico/alta-fantasia,2022-05-20
 avgn season 9,audiovisual/nao-ficcao/documentario/jogos/comedia/avgn/resenhas/historia,2022-05-26
 os suspeitos dennis villeneuve,audiovisual/ficcao/misterio/suspense/drama/crime/dennis-villeneuve,2022-06-04
-elden ring,jogo/elden-ring/soulslike/dark-fantasy/rpg/dificil/action-rpg/third-person/fantasia/acao/atmosferico/violencia/3d/playstation,2022-06-09
+elden ring,jogo/elden-ring/soulslike/dark-fantasy/rpg/dificil/action-rpg/terceira-pessoa/fantasia/acao/atmosferico/violencia/3d/playstation,2022-06-09
 mad max fury road,audiovisual/ficcao/scifi/acao/aventura/dieselpunk/pos-apocaliptico,2022-06-14
 raiden v,jogo/acao/shootn-up/bullet-hell/arcade/scifi/navinha,2022-06-14
 duna,audiovisual/ficcao/drama/suspense/acao/scifi/dennis-villeneuve,2022-06-25
@@ -322,7 +322,7 @@ god of war ragnarok,jogo/god-of-war/acao/terceira-pessoa/aventura/playstation,20
 phoenix wright 2,jogo/nintendo/phoenix-wright/detetive/visual-novel/narrativa/misterio/anime/aventura/puzzle/crime/point-and-click/comedia/classico/cult/2d/lgbt,2023-01-22
 rogue legaxy 2,jogo/indie/acao/plataforma/roguelike/aventura/pc,2023-01-23
 aeroporto area restrita s1,audiovisual/nao-ficcao/documentario/crime/brasil/aeroporto/reality-show,2023-02-01
-the last of us 2,jogo/playstation/the-last-of-us/acao/aventura/terror/third-person,2023-02-06
+the last of us 2,jogo/playstation/the-last-of-us/acao/aventura/terror/terceira-pessoa,2023-02-06
 aeroporto area restrita s2,audiovisual/nao-ficcao/documentario/crime/brasil/aeroporto/reality-show,2023-02-07
 O Hobbit,livro/tolkien/ficcao/senhor-dos-aneis/aventura/romance/epica,2023-02-07
 os fabelmans,audiovisual/ficcao/nao-ficcao/biografia/historia/cinema/spielberg,2023-02-15
@@ -431,3 +431,10 @@ xogum,audiovisual/ficcao/guerra/drama/historia/japao/romance,2024-05-12
 history of japanese RPGs,livro/nao-ficcao/jogos/historia/rpg/jrpg/computacao/artes/resenhas,2024-05-17
 the quiet duel,audiovisual/ficcao/drama/kurosawa/japao/classico/cult,2024-05-28
 o castelo animado,audiovisual/ficcao/japao/ghibli/fantasia/drama/animacao/familia,2024-05-30
+big bang theory s11,audiovisual/ficcao/comedia/sitcon/familia/hbo/big-bang-theory,2024-05-31
+astros playroom,jogo/ficcao/plataforma/aventura/coletaton/familia,2024-06-01
+1889,livro/historia/nao-ficcao/brasil/literatura-brasileira/laurentino-gomes,2024-06-15
+pokemon arceus,jogo/pokemon/arceus/rpg/aventura/anime/jrpg/fantasia/exploracao/nintendo,2024-06-01
+people make games peter molineu,audiovisual/documentario/nao-ficcao/jogos/historia/biografia/people-make-games/peter-molineu,2024-06-05
+pokemon arceus post game,jogo/pokemon/arceus/rpg/aventura/anime/jrpg/fantasia/exploracao/nintendo,2024-06-19
+gods risk,livro/the-expanse/scifi/ficcao/espaco/fantasia/aventura/space-opera/conto/adulto/ficcao-especulativa,2024-06-20
