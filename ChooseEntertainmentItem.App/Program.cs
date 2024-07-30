@@ -24,10 +24,9 @@ namespace ChooseEntertainmentItem
 
             try
             {
-                path = args[0];
                 var serviceProvider = GetServiceProvider();
-                var shouldIncludePrice = args.Count() >= 2 && args[1].ToUpper() == "S";
-                var itemType = args.Count() < 3 ? "ALL" : args[2];
+                var shouldIncludePrice = args.Count() >= 1 && args[0].ToUpper() == "S";
+                var itemType = args.Count() < 2 ? "ALL" : args[1];
 
                 var itemService = serviceProvider.GetService<IItemService>();
 
