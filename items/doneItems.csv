@@ -43,7 +43,7 @@ Spider-man,jogo/homem-aranha/acao/mundo-aberto/super-heroi/aventura/terceira-pes
 Tacoma,jogo/scifi/indie/espaco/suspense/cyberpunk/pc,2019-06-16
 Orwell,jogo/politica/scifi/indie/crime/visual-novel/point-and-click/pc,2019-06-20
 Link's Awakening,zelda/jogo/aventura/fantasia/exploracao/acao/nintendo,2019-09-24
-Divinity 2,jogo/pc/rpg/estrategia/turnos/narrativa/fantasia/crpg/exploracao/isometrico,2019-11-17
+Divinity 2,jogo/pc/divinity/rpg/estrategia/turnos/narrativa/fantasia/crpg/exploracao/isometrico,2019-11-17
 Return of The Obra Dinn,jjogo/suspense/quebra-cabeca/indie/exploracao/primeira-pessoa/pirata/crime/nintendo/obra-dinn,2019-12-01
 The Handmaiden,audiovisual/ficcao/drama/coreia-do-sul/suspense/park-chan-wook/romance,2019-01-01
 Love Death Robots,audiovisual/ficcao/scifi/espaco/cyberpunk/animacao/fantasia,2019-02-01
@@ -389,7 +389,7 @@ operacao fronteira s1,audiovisual/nao-ficcao/documentario/crime/brasil/fronteira
 nao nao olhe,audiovisual/ficcao/terror/suspense/alienigena/scifi/eua,2023-10-14
 estrada para perdicao,audiovisual/ficcao/misterio/suspense/documentario/crime/biografia/drama/mafia,2023-10-21
 retro games scam,audiovisual/nao-ficcao/jogos/historia/economia/youtube/crime,2023-10-21
-Divinity 2,jogo/switch/rpg/crpg/turnos/estrategia/narrativa/fantasia/exploracao/isometrico,2023-10-25
+Divinity 2,jogo/divinity/switch/rpg/crpg/turnos/estrategia/narrativa/fantasia/exploracao/isometrico,2023-10-25
 big bang theory s7,audiovisual/ficcao/comedia/sitcon/familia/hbo/big-bang-theory,2023-10-26
 big bang theory s8,audiovisual/ficcao/comedia/sitcon/familia/hbo/big-bang-theory,2023-10-26
 people make games,audiovisual/documentario/nao-ficcao/jogos/historia/biografia/people-make-games,2023-10-26
@@ -446,3 +446,4 @@ a bruxa,audiovisual/terror/drama/fantasia/misterio/suspense/europeu,2024-07-20
 esquadrao 51 contra os discos voadores,jogo/pc/bullet-hell/fmv/side-scrolling/arcade/espaco/cinematografico/retro/aventura/alienigena/scifi/noir/fisica/combate/narrativa/corrida/pc,2024-07-23
 house of the dragon,audiovisual/ficcao/fantasia/drama/game-of-thrones/politica/hbo,2024-08-16
 deadpool and wolverine,audiovisual/ficcao/marvel/deadpool/wolverine/super-heroi/acao/aventura/humor/adulto,2024-08-20
+alien,audiovisual/ficcao/scifi/terror/espaco/alienigena/classico,2024-09-01
