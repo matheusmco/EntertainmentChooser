@@ -98,13 +98,13 @@ Mass Effect 3,jogo/narrativa/rpg/crpg/scifi/espaco/acao/tiro/terceira-pessoa/adu
 baldurs gate 3,jogo/rpg/narrativa/turnos/ded/aventura/crpg/fantasia/estrategia/dark-fantasy/playstation,60,1
 life and suffering of sir brante,jogo/pc/rpg/narrativa/ficcao-interativa/escolha-sua-aventura/romance-visual/texto/indie/medieval/aventura/simulacao/atmosferico/fantasia/sombrio/violento,0,1
 astrobot,jogo/playstation/plataforma/aventura/coletaton,300
-mario luiggi superstar saga,jogo/mario/rpg/jrpg/aventura/comedia/nintendo/classico/cult,0,1
+paper-mario,jogo/nintendo/mario/paper-mario/rpg/jrpg/visao-2d/2d/desenhado-a-mao/turno/mundo-de-mario,0
 golden idol dlc 1,jogo/misterio/detetive/investigacao/conspiracao/quebra-cabeca/narrativa/2d/ficcao-interativa/thriller/point-and-click/sombrio/atmosferico/pixel-art/historia/aventura/crime/exploracao/pc,0,16
 golden idol dlc 2,jogo/misterio/detetive/investigacao/conspiracao/quebra-cabeca/narrativa/2d/ficcao-interativa/thriller/point-and-click/sombrio/atmosferico/pixel-art/historia/aventura/crime/exploracao/pc,0,16
 dragon quest V,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/japao/nintendo,22,1
 octopath traveler 2,jogo/nintendo/rpg/turnos/jrpg/2.5d/party-rpg/mundo-aberto/narrativa/fofo/estrategia/anime/pixel-art/fantasia/casual/magia/atmosferico/aventura,60,0
 horizon forbidden west,jogo/acao/rpg/pos-apocaliptico/scifi/aventura/playstation,300,1
-Final Fantasy VII Rebirth,jogo/final-fantasy/ff7/rpg/action/rpg/jrpg/aventura/party-rpg/terceira-pessoa/acao/3d/fantasia/plataforma/magia/realista/cinematografico/drama/narrativa,70,1
+Final Fantasy VII Rebirth,jogo/playstation/final-fantasy/final-fantasy-7/rpg/jrpg/terceira-pessoa/3d/acao/turnos/fantasia/scifi/cyberpunk,70,1
 Spider-man 2,jogo/homem-aranha/acao/mundo-aberto/super-heroi/aventura/terceira-pessoa/combate/parkour/narrativa/exploracao/furtivo/hq/beatn-up/rpg/scifi/bonito/adulto/playstation,70,1
 dishonored,jogo/furtivo/primeira-pessoa/acao/assassinato/steampunk/narrativa/atmosferico/fantasia/sobrenatural/parkour/mundo-aberto/aventura/exploracao/violencia/immersive-sim/raid/distopia/pc,0
 star wars knight knights of the old republic 2,jogo/pc/rpg/narrativa/scifi/classico/tempo-real-com-pausa/aventura/crpg/aventura/terceira-pessoa/espaco/atmosferico/acao,33
@@ -114,7 +114,7 @@ alpha protocol,jogo/pc/rpg/furtivo/acao/terceira-pessoa/narrativa/cult/tiro/aven
 final fantasy IX,jogo/nintendo/jrpg/rpg/turnos/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,10,1
 dragon quest builders,jogo/dragon-quest/rpg/plataforma/jrpg/3d/fofo/terceira-pessoa/acao/voxel/mundo-aberto/fantasia/colorido/anime/survivor/construcao/aventura/crafting/nintendo,24,1
 pentiment,jogo/aventura/historia/investigacao/narrativa/estilizado/exploracao/desenhado-a-mao/ficcao-interativa/misterio/detetive/2d/conspiracao/casual/medieval/point-and-click/nintendo,20,1
-pathfinder kingmaker,jogo/pc/rpg/crpg/fantasia/isometrico/narrativa/tempo-real-com-pausa/dungeons-and-dragons/aventura/estrategia/medieval/mundo-aberto,0
+pathfinder kingmaker,jogo/pc/pathfinder/rpg/crpg/fantasia/isometrico/narrativa/tempo-real-com-pausa/dungeons-and-dragons/aventura/estrategia/medieval/mundo-aberto,0
 bloodstained curse of the moon,jogo/acao/pixel-art/retro/plataforma/metroidvania/2d/side-scrolling/gotico/aventura/dificil/fantasia/arcade/indie/anime/dark-fantasy/vampiro/classico/nintendo,0
 blade runner,jogo/aventura/point-and-click/cinematografico/fmv/anos-80/cyberpunk/alt-history/ai/atmosferico/sombrio/crime/distopia/scifi/misterio/noir/retro/visual-novel,0
 solasta,jogo/pc/rpg/crpg/narrativa/turno/dungeons-and-dragons/aventura/fantasia/estrategia,0,1
@@ -127,7 +127,7 @@ dragon quest VIII,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/ja
 dragon quest VII,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/japao/nintendo,28,1
 animal well,jogo/switch/exploracao/metroidvania/quebra-cabeca/plataforma/terror/pixel-art/aventura/acao/misterio/2d/atmosferico/relaxante/fofo/surrealista/nao-linear/retro/indie,25,1
 chained echoes,jogo/rpg/jrpg/nintendo/indie/pixel-art/turnos/retro/exploracao/2d/narrativa/mechas/fantasia/anime/mundo-aberto/aventura,48,1
-pathfinder wrath of the righteous,jogo/pc/fantasia/sombrio/misterio/medieval/mundo-aberto/crpg/rpg/atmosferico/exploracao/narrativa,0
+pathfinder wrath of the righteous,jogo/pc/pathfinder/rpg/crpg/isometrico/3d/tempo-real-com-pausa/turnos/fantasia/medieval,0
 mother 3,jogo/rpg/aventura/anime/jrpg/nintendo/japao/comedia/pixel-art/earthbound,0,1
 final fantasy vi,jogo/nintendo/jrpg/rpg/turnos/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,10,1
 final fantasy XVI,jogo/rpg/jrpg/fantasia/aventura/anime/medieval//acao/terceira-pessoa/3d/playstation,70,1
