@@ -8,12 +8,12 @@ The Post,audiovisual/spielberg/ficcao/fatos-reais/filme-de-epoca/jornalismo/tom-
 Moneyball,audiovisual/ficcao/fatos-reais/drama/esporte/matematica/brad-pitt,2020-11-01
 Star Trek First Contact,audiovisual/ficcao/scifi/espaco/star-trek/space-opera/ficcao-especulativa,2020-11-28
 O Senhor dos Anéis As Duas Torres,audiovisual/ficcao/tolkien/senhor-dos-aneis/fantasia/aventura/epica,2020-12-06
-Final Fantasy 7,jogo/playstation/final-fantasy/final-fantasy-7/rpg/jrpg/terceira-pessoa/3d/acao/turnos/fantasia/scifi/cybperunk,2020-10-18
-Mario Galaxy,jogo/nintendo/mario/plataforma/terceira-pessoa/3d/mundo-de-mario,2020-10-25
-Magikarp Jump,jogo/mobile/pokemon/idle/nintendo/pixel-art/magikarp,2020-10-29
-Halo,jogo/primeira-pessoa/scifi/acao/espaco/aventura/pc,2020-11-26
-Mafia,jogo/acao/aventura/crime/terceira-pessoa/noir/playstation,2020-12-03
-Super Luckys Tale,jogo/aventura/plataforma/coletaton/acao/pc/3d,2020-12-03
+Final Fantasy 7 Remake,jogo/playstation/final-fantasy/final-fantasy-7/rpg/jrpg/terceira-pessoa/3d/acao/turnos/fantasia/scifi/cybperunk,2020-10-18
+Mario Galaxy,jogo/nintendo/mario/aventura/terceira-pessoa/3d/plataforma/fantasia,2020-10-25
+Magikarp Jump,jogo/mobile/pokemon/aventura/visao-2d/2d/desenhado/idle/escolha/fantasia,2020-10-29
+Halo,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2020-11-26
+Mafia,jogo/playstation/mafia-serie/acao/terceira-pessoa/3d/mundo-aberto/mafia,2020-12-03
+Super Luckys Tale,jogo/pc/super-luckys-tale/aventura/terceira-pessoa/3d/plataforma/fantasia,2020-12-03
 The Witcher O Último Desejo,livro/ficcao/witcher/fantasia/contos/alta-fantasia/aventura,2019-01-01
 The Witcher A Espada do Destino,livro/ficcao/witcher/fantasia/contos/alta-fantasia/aventura,2019-02-01
 The Witcher O Sangue dos Elfos,livro/ficcao/witcher/fantasia/contos/alta-fantasia/aventura,2019-03-01
@@ -35,7 +35,7 @@ Sonhos de Robô,livro/ficcao/asimov/scifi/contos/robos/antologia,2019-09-21
 Lobo Solitário 16,livro/ficcao/manga/hq/graphic-novel/historia/japao,2019-09-26
 1808,livro/nao-ficcao/laurentino-gomes/historia/brasil/portugal/politica,2019-10-01
 1822,livro/nao-ficcao/laurentino-gomes/historia/brasil/portugal/politica,2020-10-01
-The Witcher 3,jogo/witcher/rpg/fantasia/aventura/acao/playstation,2019-01-01
+The Witcher 3,jogo/playstation/the-witcher/rpg/crpg/terceira-pessoa/3d/acao/fantasia-medieval,2019-01-01
 Mario+Rabbits,jogo/estrategia/mario/aventura/nintendo/rabbids/acao,2019-01-01
 Quarantine Circular,jogo/indie/aventura/visual-novel/scifi/nintendo/narrativa,2019-01-01
 Fifa 19,jogo/esporte/futebol/multiplayer/gerenciamento/fifa/playstation,2019-01-01
@@ -175,14 +175,14 @@ relatos do mundo,audiovisual/ficcao/faroeste/drama/historia/tom-hanks/netflix,20
 o som do silencio,audiovisual/ficcao/drama/oscar/darius-marder/eua/franca,2021-05-23
 archipel keichi okabe,audiovisual/documentario/jogos/musica/archipel/nao-ficcao/musica,2021-05-16
 invincible,audiovisual/ficcao/super-heroi/acao/aventura/drama/animacao,2021-05-27
-Halo 2,jogo/primeira-pessoa/scifi/espaco/halo/acao/pc,2021-05-28
+Halo 2,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-05-28
 portoes de fogo,livro/ficcao/historia/ficcao-militar/grecia/antiguidade/steven-pressfield,2021-05-30
 avgn season 6,audiovisual/nao-ficcao/documentario/jogos/comedia/avgn/resenhas/historia,2021-06-03
 infiltrado na klan,audiovisual/ficcao/comedia/drama/crime/biografia/nao-ficcao,2021-06-05
-Halo 3,jogo/primeira-pessoa/scifi/espaco/halo/acao/pc,2021-06-06
+Halo 3,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-06-06
 dragon quest I,jogo/dragon-quest/rpg/jrpg/fantasia/anime/nintendo,2021-06-08
 falcao e o soldado invernal,audiovisual/ficcao/super-heroi/acao/aventura/scifi/marvel,2021-06-18
-Halo 3 odst,jogo/primeira-pessoa/scifi/espaco/halo/acao/pc,2021-06-19
+Halo 3 odst,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-06-19
 a viagem de chihiro,audiovisual/ficcao/japao/ghibli/fantasia/animacao/infantil,2021-06-20
 Sapiens,livro/nao-ficcao/historia/ciencias/filosofia/antropologia/sociologia,2021-06-24
 astros playroom,jogo/ficcao/aventura/plataforma/coletaton/terceira-pessoa/playstation,2021-06-27
