@@ -41,7 +41,7 @@ demons souls,jogo/soulslike/dark-fantasy/rpg/acao/dificil/fantasia/action-rpg/av
 o ceu de pedra,livro/n-k-jemisin/broken-earth/fantasia/ficcao/scifi/distopia/fantasia-scifi/adulto/pos-apocaliptico/ficcao-especulativa/magia,0
 Espartaco e seus gloriosos gladiadores,livro/historia/antiguidade,60,1
 Leonardo da Vinci e seu supercérebro,livro/nao-ficcao/historia/infantil/biografia/comedia/literatura-europeia/literatura-tcheca,22,1
-battlechasers,jogo/rpg/turnos/jrpg/dungeon-crawler/fantasia/indie/narrativa/hq/isometrico/mundo-aberto/aventura/anime/switch,0,1
+battlechasers,jogo/rpg/turno/jrpg/dungeon-crawler/fantasia/indie/narrativa/hq/isometrico/mundo-aberto/aventura/anime/switch,0,1
 the exploration of space,livro/arthur-c-clarke/nao-ficcao/ciencia/espaco,0,1
 crash 4,jogo/crash-bandicoot/plataforma/classico/aventura/acao/comedia/infantil/terceira-pessoa,0,1
 runner3,jogo/indie/ritmo/plataforma/acao,0,1
@@ -116,7 +116,7 @@ Cyberpunk 2077,jogo/cyberpunk/rpg/scifi/primeira-pessoa/acao/playstation,0,1
 the orville,audiovisual/ficcao/scifi/comedia/drama,0,1
 digimon world 3,jogo/digimon/rpg/jrpg/2d/aventura/anime/pc,0,1
 o cavaleiro das trevas,livro/hq/batman/ficcao/super-heroi/fantasia/crime,0,1
-shining force,jogo/estrategia/rpg/jrpg/nintendo/fantasia/medieval/turnos/aventura,0,1
+shining force,jogo/estrategia/rpg/jrpg/nintendo/fantasia/medieval/turno/aventura,0,1
 tales of vesperia,jogo/tales-of/rpg/anime/playstation/jrpg/fantasia/aventura,0,1
 super metroid,jogo/acao/aventura/metroidvania/metroid/scifi/espaco/plataforma/switch,0,1
 metroid prime,jogo/metroid/primeira-pessoa/aventura/metroidvania/scifi/espaco/switch,50,1
@@ -133,7 +133,7 @@ rise of the ronin,jogo/acao/aventura/combate/epico/playstation,70,1
 indiana jones and the fate of atlantis,jogo/indiana-jones/aventura/point-and-click/classico/anos-90/pixel-art/retro/narrativa/quebra-cabeca/humor/acao/2d/remake/atmosferico/cinematografico,0,1
 sonic frontiers,jogo/playstation/sonic/acao/aventura/plataforma/exploracao,60,1
 ace combat,jogo/voo/jatos/militar/guerra/tiro/arcade/cinematografico/3d/simulacao/primeira-pessoa/acao/terceira-pessoa/narrativa/scifi/realistico,60,1
-saga frontier,jogo/rpg/jrpg/2d/turnos/drama/narrativa/anime/pc/nintendo,40,1
+saga frontier,jogo/rpg/jrpg/2d/turno/drama/narrativa/anime/pc/nintendo,40,1
 ilse a bruxa,livro/fantasia/ficcao/epico/alta-fantasia/aventura/scifi,0,1
 watchmen,audiovisual/ficcao/quadrinhos/super-heroi/scifi/acao/drama,0,1
 batman ano 1,livro/hq/batman/ficcao/super-heroi/fantasia/crime,0,1
@@ -146,12 +146,12 @@ Tears of the kingdom,zelda/jogo/aventura/fantasia/rpg/acao/jrpg/mundo-aberto/ter
 Dodgeball Academia,jogo/nintendo/acao/rpg/aventura/esporte/arcade/anime/cartoon/fofo/colorido/isometrico/narrativa/indie,20,1
 xenoblade chronicles 3,jogo/rpg/jrpg/switch/fantasia/aventura/acao,60,1
 suikoden 2,jogo/rpg/jrpg/acao/aventura/fantasia/medieval/anime/switch,0,1
-chrono cross,jogo/jrpg/rpg/narrativa/exploracao/party-rpg/aventura/quebra-cabeca/fantasia/scifi/magia/viagem-no-tempo/drama/text-adventure/nostalgia/classico/anime/combate-em-turnos,20,1
+chrono cross,jogo/jrpg/rpg/narrativa/exploracao/party-rpg/aventura/quebra-cabeca/fantasia/scifi/magia/viagem-no-tempo/drama/text-adventure/nostalgia/classico/anime/combate-em-turno,20,1
 Judgement,jogo/acao/narrativa/beatn-up/yakuza/aventura/rpg/crime/mundo-aberto/comedia/jrpg/drama/terceira-pessoa/playstation,40,1
 Yakuza 7,jogo/acao/narrativa/beatn-up/yakuza/aventura/rpg/crime/mundo-aberto/comedia/jrpg/drama/terceira-pessoa/playstation,60,1
 yakuza ishin,jogo/acao/narrativa/beatn-up/yakuza/aventura/rpg/crime/mundo-aberto/comedia/jrpg/drama/terceira-pessoa/playstation,60,1
 live a live,jogo/nintendo/rpg/jrpg/artes-marciais/2.5d/2d/pixel-art/medieval/ninja/aventura/western/scifi/anos-90/futurista/moderno/retro/remake,0,1
-sea of stars,jogo/rpg/pixel-art/turnos/aventura/jrpg/narrativa/2d/retro/fantasia/indie/comedia/exploracao/colorido/comovente/pc/nintendo,25,1
+sea of stars,jogo/rpg/pixel-art/turno/aventura/jrpg/narrativa/2d/retro/fantasia/indie/comedia/exploracao/colorido/comovente/pc/nintendo,25,1
 legend of mana,jogo/exploracao/rpg/jrpg/action-rpg/estrategia/acao/colorido/fantasia/magia/anos-90/old-school/retro/pc/nintendo,0,1
 star trek judgment rites,jogo/star-trek/aventura/point-and-click/scifi/pc/narrativa/classico/quebra-cabeca/anos-90/2d/retro/cult/pizel-art/espaco/space-opera,10,1
 hi fi rush,jogo/playstation/ritmo/acao/hack-n-slash/cartoon/plataforma/musical/character-action/colorido/comedia/beatn-up/anime/cyberpunk/terceira-pessoa/robo/aventura,30,1
@@ -161,5 +161,6 @@ yakuza 6,jogo/acao/narrativa/beatn-up/yakuza/aventura/rpg/crime/mundo-aberto/com
 tactical breach wizard,jogo/pc/estrategia/turno/narrativa/quebra-cabeca/humor/rpg/aventura/militar/indie/misterio/isometrico/fantasia,0,1
 baldurs gate,jogo/pc/baldurs-gate/rpg/crpg/fantasia/tempo-real-com-pausa/old-school/aventura/magia,0
 icewind dale,jogo/pc/rpg/crpg/dungeons-and-dragons/fantasia/aventura/dungeon-crawler/magia/retro/mundo-aberto/isometrico/old-school/tempo-real-com-pausa,0
-trails in the sky,jogo/pc/rpg/jrpg/narrativa/anime/turnos/fantasia/aventura/classico/estrategia/isometrico,0
+trails in the sky,jogo/pc/rpg/jrpg/narrativa/anime/turno/fantasia/aventura/classico/estrategia/isometrico,0
 dragons dogma,jogo/pc/rpg/jrph/mundo-aberto/fantasia/acao/aventura/dragoes/terceira-pessoa/sombrio/magia/exploracao/atmosferico/narrativa/dificil/hack-and-slash,0
+dragon age,jogo/pc/rpg/crpg/fantasia/narrativa/tempo-real-com-pausa/adulto/aventura/sombrio/estrategia/dragoes/classico/mundo-aberto,0,1

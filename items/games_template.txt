@@ -1,1 +1,3 @@
 tipo,plataforma,serie,genero/subgenero,visao,graficos,gameplay,ambientacao
+jogo/pc/dragon-quest/rpg/jrpg/terceira-pessoa/3d/turno/fantasia-medieval
+jogo/dragon-quest/rpg/jrpg/fantasia/anime/pc
