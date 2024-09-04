@@ -1,0 +1,1 @@
+tipo,plataforma,serie,genero/subgenero,visao,graficos,gameplay,ambientacao
