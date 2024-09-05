@@ -36,7 +36,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
             // TODO: change ALL - use nulllable param
             var items = service.CalculateBacklogItemsPriority(true, "ALL");
 
-            Assert.AreEqual(expectedScore, items.First().GetFinalScore());
+            Assert.That(expectedScore == items.First().GetFinalScore());
         }
 
         [Test]
@@ -62,12 +62,14 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
 
             var items = service.CalculateBacklogItemsPriority(false, "ALL");
 
-            Assert.AreEqual(expectedScore, items.First().GetFinalScore());
+            Assert.That(expectedScore == items.First().GetFinalScore());
         }
 
         [Test]
         public void CalculateBacklogItemsPriority_FilterByType_ReturnFiltered()
         {
+            var expected = 1;
+
             var repository = new Mock<IItemRepository>();
             repository.Setup(_ => _.GetDoneItems()).Returns(new List<DoneItem>
             {
@@ -95,12 +97,13 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
 
             var items = service.CalculateBacklogItemsPriority(false, "type1");
 
-            Assert.AreEqual(1, items.Count());
+            Assert.That(expected == items.Count());
         }
 
         [Test]
         public void CalculateBacklogItemsPriority_DoNotFilterByType_ReturnAll()
         {
+            var expected = 2;
             var repository = new Mock<IItemRepository>();
             repository.Setup(_ => _.GetDoneItems()).Returns(new List<DoneItem>
             {
@@ -128,7 +131,7 @@ namespace ChooseEntertainmentItem.Tests.Domain.Services
 
             var items = service.CalculateBacklogItemsPriority(false, "ALL");
 
-            Assert.AreEqual(2, items.Count());
+            Assert.That(expected == items.Count());
         }
     }
 }

@@ -10,7 +10,6 @@ namespace ChooseEntertainmentItem
 {
     class Program
     {
-        static string path;
         static Logger logger;
 
         static void Main(string[] args)
