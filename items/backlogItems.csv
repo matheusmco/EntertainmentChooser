@@ -2,8 +2,8 @@ Name,Tags,Price
 1492,audiovisual/ficcao/historia/drama/acao/aventura/europa,0
 abbadons gate,livro/the-expanse/scifi/ficcao/espaco/fantasia/aventura,0
 a conquista do oeste,audiovisual/ficcao/faroeste/acao/aventura/historia/eua,8
-alianca do crime,audiovisual/ficcao/drama/historia/crime,0
-apocalipse now,audiovisual/ficcao/drama/guerra/militar,0
+alianca do crime,audiovisual/ficcao/drama/historia/crime/eua,0
+apocalipse now,audiovisual/apocalipse-now/ficcao/drama/guerra/eua,0
 a queda,audiovisual/ficcao/guerra/drama/acao/historia/europa,0
 atlas da terra media,livro/ficcao/nao-ficcao/tolkien/mapas/fantasia/senhor-dos-aneis,0
 atras das linhas inimigas,audiovisual/ficcao/drama/espionagem/suspense/guerra/militar/acao/aventura,0
@@ -16,7 +16,6 @@ casa nobre,livro/ficcao/james-clavell/ficcao-historica/historia/asia/china/avent
 chernobyl,audiovisual/drama/historia/misterio/suspense/ficcao/catastrofe,0
 contato,audiovisual/ficcao/scifi/drama,8
 CRPG book,livro/nao-ficcao/jogos/historia/rpg/crpg/artes/resenhas,0
-dança com lobos,audiovisual/faroeste/drama/kevin-costner/eua/indigena/aventura,0
 Dodesukaden,audiovisual/ficcao/drama/kurosawa/japao/classico/cult/samurai,0
 Dreams,audiovisual/ficcao/drama/kurosawa/japao/classico/cult,0
 drunken angel,audiovisual/ficcao/kurosawa/japao/drama/crime/romance/suspense,15
@@ -50,7 +49,7 @@ o milagre de berna,audiovisual/ficcao/drama/comedia/europa/esporte,0
 o mundo de andy,audiovisual/ficcao/biografia/historia/drama/comedia/jim-carrey,0
 onde começa o inferno,audiovisual/ficcao/faroeste/drama/acao/aventura,0
 o nome do vento,livro/ficcao/fantasia/epico/alta-fantasia/magia/adulto/aventura,0
-o samurai,audiovisual/ficcao/drama/franca/italia/crime,0
+o samurai,audiovisual/ficcao/drama/crime/franca/italia,0
 os eleitos,audiovisual/ficcao/aventura/drama,8
 o servico de entregas da kiki,audiovisual/ficcao/fantasia/animacao/drama/familia/ghibli,0
 os suspeitos kevin spacey,audiovisual/ficcao/drama/suspense/crime,6
