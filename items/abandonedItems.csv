@@ -3,7 +3,7 @@ crash 1,jogo/crash-bandicoot/plataforma/classico/aventura/acao/comedia/infantil,
 crash 2,jogo/crash-bandicoot/plataforma/classico/aventura/acao/comedia/infantil,0
 crash 3,jogo/crash-bandicoot/plataforma/classico/aventura/acao/comedia/infantil/terceira-pessoa,0
 zelda oracle of seasons/ages,zelda/jogo/aventura/fantasia/acao,0
-enraizados,livro/fantasia/young-adult/ficcao/romance/magia/conto-de-fadas/alta-fantasia/adulto/retelling/novos-adultos,29
+enraizados,livro/fantasia/young-adult/romance/magia/conto-de-fadas/alta-fantasia/adulto/retelling/novos-adultos,29
 zelda spirit track,zelda/jogo/aventura/fantasia/acao,0
 zelda phantom hourglas,zelda/jogo/aventura/fantasia/acao,0
 nos,livro/scifi,0
@@ -11,23 +11,23 @@ a canção de sangue,livro/fantasia/epica/alta-fantasia/aventura/young-adult/mag
 assassins creed odissey,jogo/assassins-creed/mundo-aberto/rpg/acao/aventura/historia/furtivo/narrativa/parkour/thir-person,0
 greed fall,jogo/mundo-aberto/narrativa/terceira-pessoa/aventura/fantasia/acao/adulto/action-rpg/magia/novel/medieval,0
 curb your entusiasm,audiovisual/comedia,0
-Witcher 7,livro/witcher/fantasia/ficcao/literatura-polonesa/aventura/alta-fantasia/epica/magia/adulto/fantasia-scifi,0
+Witcher 7,livro/witcher/fantasia/literatura-polonesa/aventura/alta-fantasia/epica/magia/adulto/fantasia-scifi,0
 sekiro,jogo/souls-like/acao/furtivo/aventura/terceira-pessoa/mundo-aberto/narrativa/dark-fantasy/hack-n-slash/rpg,0
 O fim da infância,livro/scifi/espaco/asimov,12
 Super Mario 3D World,jogo/plataforma/mario/aventura/switch,0
-a natureza da terra media,livro/tolkien/senhor-dos-aneis/classico/ficcao/alta-fantasia/epica,0
+a natureza da terra media,livro/tolkien/senhor-dos-aneis/classico/alta-fantasia/epica,0
 psychonauts,jogo/plataforma/comedia/aventura/cult/acao/classico/surrealista/coletaton/3d/pc,0
 luigi's mansion 3,jogo/acao/aventura/switch,0
 ratched and clank,jogo/plataforma/aventura/acao/shooter/terceira-pessoa/playstation,0
 batman the telltale series,jogo/batman/super-heroi/quadrinhos/aventura/narrativa/acao/point and click/detetive/noir/visual-novel,0
 the last guardian,jogo/acao/aventura/exploracao/terceira-pessoa/playstation,0
-fundação,audiovisual/drama/asimov/scifi/ficcao/fantasia-scifi/classico/espaco/fantasia/novel/space-opera/ficcao-especulativa,0
+fundação,audiovisual/drama/asimov/scifi/fantasia-scifi/classico/espaco/fantasia/novel/space-opera/-especulativa,0
 warioware get it together,jogo/acao/festa/switch,300
 kingdom of amalur re-reckoning,jogo/rpg/acao/fantasia/mundo-aberto/aventura/hack-and-slash/terceira-pessoa/narrativa,0
 subnautica,jogo/survivor/mundo-aberto/exploracao/terror/aventura/primeira-pessoa/scifi/acao/indie/playstation,0
 pokemon black and white,jogo/pokemon/rpg/aventura/anime/jrpg/fantasia/3ds,0
 django,audiovisual/faroeste/acao/aventura/europa,13
-Deuses americanos,livro/gaiman/fantasia/ficcao/fantasia-urbana/mitologia/scifi/fantasia-scifi/adulto/contemporaneo/novel,36
+Deuses americanos,livro/gaiman/fantasia/fantasia-urbana/mitologia/scifi/fantasia-scifi/adulto/contemporaneo/novel,36
 seinfeld s3,audiovisual/seinfield/comedia/sitcom,0
 dandy ace,jogo/acao/indie/roguelite/isometrico/dungeon-crawler/roguelike/magia/indie,0,1
 final fantasy 14,jogo/mmorpg/rpg/fantasia/jrpg/narrativa/mundo-aberto/anime/aventura/magia/acao/action-rpg/playstation,0,1
@@ -38,84 +38,84 @@ ghost of a tale,jogo/playstation/aventura/furtivo/rpg/indie/fantasia/terceira-pe
 guardians of the Galaxy,jogo/super-heroi/marvel/playstation/narrativa/acao/aventura/tps/exploracao/aventura/comedia/scifi/space-opera/rpg,0,1
 Death Stranding,jogo/walking-simulator/mundo-aberto/narrativa/pos-apocaliptico/scifi/terceira-pessoa/aventura/exploracao/terror/furtivo/acao/survivor/playstation,0,1
 demons souls,jogo/soulslike/dark-fantasy/rpg/acao/dificil/fantasia/action-rpg/aventura/terceira-pessoa/exploracao/playstation,0,1
-o ceu de pedra,livro/n-k-jemisin/broken-earth/fantasia/ficcao/scifi/distopia/fantasia-scifi/adulto/pos-apocaliptico/ficcao-especulativa/magia,0
+o ceu de pedra,livro/n-k-jemisin/broken-earth/fantasia/scifi/distopia/fantasia-scifi/adulto/pos-apocaliptico/-especulativa/magia,0
 Espartaco e seus gloriosos gladiadores,livro/historia/antiguidade,60,1
-Leonardo da Vinci e seu supercérebro,livro/nao-ficcao/historia/infantil/biografia/comedia/literatura-europeia/literatura-tcheca,22,1
+Leonardo da Vinci e seu supercérebro,livro/historia/infantil/biografia/comedia/literatura-europeia/literatura-tcheca,22,1
 battlechasers,jogo/rpg/turno/jrpg/dungeon-crawler/fantasia/indie/narrativa/hq/isometrico/mundo-aberto/aventura/anime/switch,0,1
-the exploration of space,livro/arthur-c-clarke/nao-ficcao/ciencia/espaco,0,1
+the exploration of space,livro/arthur-c-clarke/ciencia/espaco,0,1
 crash 4,jogo/crash-bandicoot/plataforma/classico/aventura/acao/comedia/infantil/terceira-pessoa,0,1
 runner3,jogo/indie/ritmo/plataforma/acao,0,1
-O Islã e a formação da Europa,livro/historia/isla/religiao/nao-ficcao/historia-europeia/medieval/cristanismo/historia-medieval/historia-geral/espanha,0,1
-O fim do homem sovietico,livro/nao-ficcao/historia/cultura-russa/politica/literatura-russa/nobel/historico/biografia/historia-russa/jornalismo,0,1
+O Islã e a formação da Europa,livro/historia/isla/religiao/historia-europeia/medieval/cristanismo/historia-medieval/historia-geral/espanha,0,1
+O fim do homem sovietico,livro/historia/cultura-russa/politica/literatura-russa/nobel/historico/biografia/historia-russa/jornalismo,0,1
 pikimin 3,jogo/estrategia/quebra-cabeca/acao/aventura/switch,0,1
-O Andar do bebado,livro/nao-ficcao/ciencia/psicologia/matematica/economia/negocios/filosofia/historia/ciencia-popular/fisica,0,1
-Os homens que não amavam as mulheres,livro/stieg-larsson/ficcao/misterio/suspense/crime/suspense-de-misterio/contemporaneo/adulto/ficcao-adulta/novel,0,1
-Alexandre o grande e sua sede de fama,livro/nao-ficcao/infantil,70,1
-beyond the deepwoods,livro/fantasia/young-adult/ficcao/teen/infantil/aventura/steampunk/alta-fantasia/juvenil/fantasia-scifi,0,1
-action button,audiovisual/nao-ficcao/jogos/historia/documentario,0,1
-Zona quente,livro/nao-ficcao/ciencias/historia/medicina/medico/terror/suspense/saude/africa/biologia,0,1
-1984,livro/classico/ficcao/scifi/distopia/literatura/novel/politica/academico/fantasia/adulto,0,1
-a wrinkle in time,livro/fantasia/ficcao/classico/young-adult/scifi/infantil/teen/viagem-no-tempo/aventura/fantasia-scifi,23,1
-Atari game over,audiovisual/nao-ficcao/documentario/jogos/historia,0,1
-the cultural significance of cyberpunk,audiovisual/documentario/scifi/cyberpunk/nao-ficcao,0,1
-O Dezoito Brumário de Luís Bonaparte,livro/marx/historia/politica/filosofia/nao-ficcao/filosofia-teorica/sociologia/franca/classico/economia,0,1
-A guerra civil na França,livro/marx/historia/politica/nao-ficcao/filosofia/filosofia-teorica/franca/economia/classico/literatura-alema,0,1
-O Estado e a Revolução,livro/lenin/politica/nao-ficcao/filosofia/filosofia-teorica/historia/economia/russia/classico/ciencias-politicas/comunismo,0,1
-Um Passo em Frente Dois Passos Atrás,livro/lenin/politica/nao-ficcao/filosofia/filosofia-teorica/historia/russia/classico/comunismo/economia/ciencias-politicas,0,1
-A ideologia alemã,livro/marx/filosofia/politica/nao-ficcao/filosofia-teorica/historia/sociologia/economia/classico/alemanha/academico,0,1
-A revolucao sul-africana,livro/historia/africa/guerra/nao-ficcao,18,1
-A revolucao alema,livro/historia/alemanha/nao-ficcao/guerra,18,1
-A revolucao Colombiana,livro/nao-ficcao/historia/colombia/america-latina/guerra,20,1
-A revolucao salvadorenha,livro/nao-ficcao/historia/america-latina/guerra/el-salvador,21,1
-A revolucao guatemalteca,livro/nao-ficcao/historia/america-latina/guerra/guatemala,23,1
-A revolucao portuguesa,livro/nao-ficcao/historia/europa/portugal/guerra,24,1
-A revolucao peruana,livro/nao-ficcao/historia/america-latina/guerra/peru,25,1
-A revolucao nicaraguense,livro/nao-ficcao/historia/america-latina/guerra/nicaragua,23,1
-A revolucao argelina,livro/nao-ficcao/historia/africa/oriente-medio/guerra/argelia,22,1
-A revolucao venezuelana,livro/nao-ficcao/historia/america-latina/guerra/venezuela,20,1
-As revolucoes africanas,livro/nao-ficcao/historia/africa/guerra,29,1
-A revolucao boliviana,livro/nao-ficcao/historia/america-latina/guerra/boliviana,18,1
-A revolucao iraniana,livro/nao-ficcao/historia/oriente-medio/guerra/ira,18,1
-A revolucao chinesa,livro/nao-ficcao/historia/china/guerra,14,1
-A revolucao mexicana,livro/nao-ficcao/historia/america-latina/guerra/mexico,18,1
-A revolucao cubana,livro/nao-ficcao/historia/america-latina/guerra/cuba,22,1
-As revolucoes russas e o socialismo,livro/nao-ficcao/historia/russia/guerra,15,1
-A revolucao vietinamita,livro/nao-ficcao/historia/asia/guerra/vietina,20,1
-a revolucao coreana,livro/comunismo/socialismo/coreia/historia/politica/economia/sociologia/nao-ficcao/filosofia,0,1
-romance dos tres reinos,livro/ficcao/classico/ficcao-historica/china/literatura/literatura-chinesa/fantasia/asia/novel,0,1
+O Andar do bebado,livro/ciencia/psicologia/matematica/economia/negocios/filosofia/historia/ciencia-popular/fisica,0,1
+Os homens que não amavam as mulheres,livro/stieg-larsson/misterio/suspense/crime/suspense-de-misterio/contemporaneo/adulto/-adulta/novel,0,1
+Alexandre o grande e sua sede de fama,livro/infantil,70,1
+beyond the deepwoods,livro/fantasia/young-adult/teen/infantil/aventura/steampunk/alta-fantasia/juvenil/fantasia-scifi,0,1
+action button,audiovisual/jogos/historia/documentario,0,1
+Zona quente,livro/ciencias/historia/medicina/medico/terror/suspense/saude/africa/biologia,0,1
+1984,livro/classico/scifi/distopia/literatura/novel/politica/academico/fantasia/adulto,0,1
+a wrinkle in time,livro/fantasia/classico/young-adult/scifi/infantil/teen/viagem-no-tempo/aventura/fantasia-scifi,23,1
+Atari game over,audiovisual/documentario/jogos/historia,0,1
+the cultural significance of cyberpunk,audiovisual/documentario/scifi/cyberpunk/,0,1
+O Dezoito Brumário de Luís Bonaparte,livro/marx/historia/politica/filosofia/filosofia-teorica/sociologia/franca/classico/economia,0,1
+A guerra civil na França,livro/marx/historia/politica/filosofia/filosofia-teorica/franca/economia/classico/literatura-alema,0,1
+O Estado e a Revolução,livro/lenin/politica/filosofia/filosofia-teorica/historia/economia/russia/classico/ciencias-politicas/comunismo,0,1
+Um Passo em Frente Dois Passos Atrás,livro/lenin/politica/filosofia/filosofia-teorica/historia/russia/classico/comunismo/economia/ciencias-politicas,0,1
+A ideologia alemã,livro/marx/filosofia/politica/filosofia-teorica/historia/sociologia/economia/classico/alemanha/academico,0,1
+A revolucao sul-africana,livro/historia/africa/guerra/,18,1
+A revolucao alema,livro/historia/alemanha/guerra,18,1
+A revolucao Colombiana,livro/historia/colombia/america-latina/guerra,20,1
+A revolucao salvadorenha,livro/historia/america-latina/guerra/el-salvador,21,1
+A revolucao guatemalteca,livro/historia/america-latina/guerra/guatemala,23,1
+A revolucao portuguesa,livro/historia/europa/portugal/guerra,24,1
+A revolucao peruana,livro/historia/america-latina/guerra/peru,25,1
+A revolucao nicaraguense,livro/historia/america-latina/guerra/nicaragua,23,1
+A revolucao argelina,livro/historia/africa/oriente-medio/guerra/argelia,22,1
+A revolucao venezuelana,livro/historia/america-latina/guerra/venezuela,20,1
+As revolucoes africanas,livro/historia/africa/guerra,29,1
+A revolucao boliviana,livro/historia/america-latina/guerra/boliviana,18,1
+A revolucao iraniana,livro/historia/oriente-medio/guerra/ira,18,1
+A revolucao chinesa,livro/historia/china/guerra,14,1
+A revolucao mexicana,livro/historia/america-latina/guerra/mexico,18,1
+A revolucao cubana,livro/historia/america-latina/guerra/cuba,22,1
+As revolucoes russas e o socialismo,livro/historia/russia/guerra,15,1
+A revolucao vietinamita,livro/historia/asia/guerra/vietina,20,1
+a revolucao coreana,livro/comunismo/socialismo/coreia/historia/politica/economia/sociologia/filosofia,0,1
+romance dos tres reinos,livro/classico/-historica/china/literatura/literatura-chinesa/fantasia/asia/novel,0,1
 observer,jogo/playstation/terror/detetive/cyberpunk/furtivo/primeira-pessoa/narrativa/distopia/indie,0,1
 roadwarden,jogo/rpg/pc/indie/fantasia/visual-novel/crime,0,28
 moon rider,jogo/plataforma/acao/brasi/joy-masher/pc/retro,53,1
 Mario+Rabbits sparks of hope,jogo/estrategia/mario/aventura/switch/rabbits/rts,60,1
-fargo,audiovisual/ficcao/drama/crime/misterio/suspense,0,1
-farscape,audiovisual/ficcao/scifi/acao/aventura/drama,0,1
-stargate,audiovisual/ficcao/scifi/acao/aventura,0,1
-deadwood s1,audiovisual/ficcao/faroeste/historia/crime/drama,0,1
-sopranos,audiovisual/ficcao/drama/crime,0,1
-gabriel knight,audiovisual/jogabilidade/jogos/terror/ficcao/nao-ficcao,0,1
-a bussola de ouro,livro/fantasia/ficcao/aventura/scifi/steampunk/classico,0,1
-wyrmeweald o tesouro dos prodigos,livro/fantasia/young-adult/dragao/aventura/ficcao/alta-fantasia,0,1
+fargo,audiovisual/drama/crime/misterio/suspense,0,1
+farscape,audiovisual/scifi/acao/aventura/drama,0,1
+stargate,audiovisual/scifi/acao/aventura,0,1
+deadwood s1,audiovisual/faroeste/historia/crime/drama,0,1
+sopranos,audiovisual/drama/crime,0,1
+gabriel knight,audiovisual/jogabilidade/jogos/terror/,0,1
+a bussola de ouro,livro/fantasia/aventura/scifi/steampunk/classico,0,1
+wyrmeweald o tesouro dos prodigos,livro/fantasia/young-adult/dragao/aventura/alta-fantasia,0,1
 hogwarts legacy,jogo/harry-potter/acao/aventura/rpg/fantasia/playstation,0,1
 paper mario the origami king,jogo/rpg/aventura/jrpg/acao/mario/switch,0,1
 professor layton,jogo/quebra-cabeca/misterio/historia/point-and-click/aventura/nintendo,0,1
-years and years,audiovisual/drama/guerra/ficcao-militar/scifi/ficcao,0,1
-o homem que matou don quixote,audiovisual/ficcao/fantasia/comedia/drama/europa,0,1
-meu odio sera tua heranca,audiovisual/ficcao/faroeste/acao/aventura/drama/violencia,0,1
-o primeiro homem,audiovisual/ficcao/drama/historia,12,1
-patton,audiovisual/ficcao/drama/guerra/militar/historia,0,1
-doze condenados,audiovisual/ficcao/acao/aventura/guerra/militar,0,1
-a queda do imperio romano,audiovisual/ficcao/drama/historia/guerra/militar,0,1
-matrix,audiovisual/aventura/ficcao/cyberpunk/scifi/acao/pos-apocaliptico,0,1
-a historia de terra media 1,livro/tolkien/ficcao/senhor-dos-aneis/fantasia/contos/epica,0,1
-double fine,audiovisual/documentario/nao-ficcao/jogos/biografia/historia/double-fine,0,1
+years and years,audiovisual/drama/guerra/-militar/scifi/,0,1
+o homem que matou don quixote,audiovisual/fantasia/comedia/drama/europa,0,1
+meu odio sera tua heranca,audiovisual/faroeste/acao/aventura/drama/violencia,0,1
+o primeiro homem,audiovisual/drama/historia,12,1
+patton,audiovisual/drama/guerra/militar/historia,0,1
+doze condenados,audiovisual/acao/aventura/guerra/militar,0,1
+a queda do imperio romano,audiovisual/drama/historia/guerra/militar,0,1
+matrix,audiovisual/aventura/cyberpunk/scifi/acao/pos-apocaliptico,0,1
+a historia de terra media 1,livro/tolkien/senhor-dos-aneis/fantasia/contos/epica,0,1
+double fine,audiovisual/documentario/jogos/biografia/historia/double-fine,0,1
 tynikin,jogo/playstation/acao/aventura/indie/estrategia/plataforma,144,1
-pinochet,audiovisual/historia-publica/chile/nao-ficcao/marxismo/politica/socialismo,0,1
+pinochet,audiovisual/historia-publica/chile/marxismo/politica/socialismo,0,1
 moonring,jogo/rpg/medieval/fantasia/dark-fantasy/roguelike/pc/crpg/retro,0,1
-motoqueiro fantasma,livro/hq/graphic-novel/marvel/super-heroi/terror/fantasia/ficcao,0,1
+motoqueiro fantasma,livro/hq/graphic-novel/marvel/super-heroi/terror/fantasia/,0,1
 Cyberpunk 2077,jogo/cyberpunk/rpg/scifi/primeira-pessoa/acao/playstation,0,1
-the orville,audiovisual/ficcao/scifi/comedia/drama,0,1
+the orville,audiovisual/scifi/comedia/drama,0,1
 digimon world 3,jogo/digimon/rpg/jrpg/2d/aventura/anime/pc,0,1
-o cavaleiro das trevas,livro/hq/batman/ficcao/super-heroi/fantasia/crime,0,1
+o cavaleiro das trevas,livro/hq/batman/super-heroi/fantasia/crime,0,1
 shining force,jogo/estrategia/rpg/jrpg/nintendo/fantasia/medieval/turno/aventura,0,1
 tales of vesperia,jogo/tales-of/rpg/anime/playstation/jrpg/fantasia/aventura,0,1
 super metroid,jogo/acao/aventura/metroidvania/metroid/scifi/espaco/plataforma/switch,0,1
@@ -125,20 +125,20 @@ the sexy brutale,jogo/nintendo/quebra-cabeca/aventura/misterio/indie/viagem-no-t
 citizen sleeper,jogo/rpg/boardgame/exploracao/futurista/visual-novel/scifi/aventura/indie/switch,7,1
 infernax,jogo/acao/aventura/indie/rpg/switch/metroidvania/medieval,20,1
 shovel knight,jogo/nintendo/acao/aventura/indie,0,1
-a chegada,audiovisual/ficcao/scifi/drama/alienigena/ficcao-especulativa/militar,0,1
-star trek tos,audiovisual/ficcao/scifi/espaco/star-trek/acao/aventura,0,1
-star wars 4,audiovisual/ficcao/star-wars/scifi/fantasia/acao/aventura,0,1
-o ultimo ancestral,livro/ficcao/scifi/afrofuturismo/fantasia,0,1
+a chegada,audiovisual/scifi/drama/alienigena/-especulativa/militar,0,1
+star trek tos,audiovisual/scifi/espaco/star-trek/acao/aventura,0,1
+star wars 4,audiovisual/star-wars/scifi/fantasia/acao/aventura,0,1
+o ultimo ancestral,livro/scifi/afrofuturismo/fantasia,0,1
 rise of the ronin,jogo/acao/aventura/combate/epico/playstation,70,1
 indiana jones and the fate of atlantis,jogo/indiana-jones/aventura/point-and-click/classico/anos-90/pixel-art/retro/narrativa/quebra-cabeca/humor/acao/2d/remake/atmosferico/cinematografico,0,1
 sonic frontiers,jogo/playstation/sonic/acao/aventura/plataforma/exploracao,60,1
 ace combat,jogo/voo/jatos/militar/guerra/tiro/arcade/cinematografico/3d/simulacao/primeira-pessoa/acao/terceira-pessoa/narrativa/scifi/realistico,60,1
 saga frontier,jogo/rpg/jrpg/2d/turno/drama/narrativa/anime/pc/nintendo,40,1
-ilse a bruxa,livro/fantasia/ficcao/epico/alta-fantasia/aventura/scifi,0,1
-watchmen,audiovisual/ficcao/quadrinhos/super-heroi/scifi/acao/drama,0,1
-batman ano 1,livro/hq/batman/ficcao/super-heroi/fantasia/crime,0,1
+ilse a bruxa,livro/fantasia/epico/alta-fantasia/aventura/scifi,0,1
+watchmen,audiovisual/quadrinhos/super-heroi/scifi/acao/drama,0,1
+batman ano 1,livro/hq/batman/super-heroi/fantasia/crime,0,1
 neverwinter nights,jogo/pc/rpg/crpg/dungeons-and-dragons/fantasia/tempo-real-com-pausa/aventura/magia/retro,0,1
-tudo sobre arte,livro/nao-ficcao/arte/historia/referencia/educacao/inglaterra/design/cultura,0,1
+tudo sobre arte,livro/arte/historia/referencia/educacao/inglaterra/design/cultura,0,1
 sekiro,jogo/soulslike/dificil/acao/ninja/furtivo/aventura/terceira-pessoa/mundo-aberto/narrativa/violencia/atmosferico/dark-fantasy/hack-and-slash/rpg/sombrio,60,1
 bloodborne,jogo/soulslike/dificil/acao/ninja/furtivo/aventura/terceira-pessoa/mundo-aberto/narrativa/violencia/atmosferico/dark-fantasy/hack-and-slash/rpg/sombrio,60,1
 demon souls,jogo/soulslike/dificil/acao/ninja/furtivo/aventura/terceira-pessoa/mundo-aberto/narrativa/violencia/atmosferico/dark-fantasy/hack-and-slash/rpg/sombrio,60,1
@@ -155,7 +155,7 @@ sea of stars,jogo/rpg/pixel-art/turno/aventura/jrpg/narrativa/2d/retro/fantasia/
 legend of mana,jogo/exploracao/rpg/jrpg/action-rpg/estrategia/acao/colorido/fantasia/magia/anos-90/old-school/retro/pc/nintendo,0,1
 star trek judgment rites,jogo/star-trek/aventura/point-and-click/scifi/pc/narrativa/classico/quebra-cabeca/anos-90/2d/retro/cult/pizel-art/espaco/space-opera,10,1
 hi fi rush,jogo/playstation/ritmo/acao/hack-n-slash/cartoon/plataforma/musical/character-action/colorido/comedia/beatn-up/anime/cyberpunk/terceira-pessoa/robo/aventura,30,1
-the making of karateka,jogo/switch/acao/luta/2d/plataforma/documentario/ficcao/nao-ficcao/pixel-/art/cinematografico/game-development/educativo/anos-80/historia/retro/narrativa/linear/classico,0,1
+the making of karateka,jogo/switch/acao/luta/2d/plataforma/documentario//pixel-/art/cinematografico/game-development/educativo/anos-80/historia/retro/narrativa/linear/classico,0,1
 pokemon scarlet,jogo/pokemon/arceus/rpg/aventura/anime/jrpg/fantasia/exploracao/nintendo,0,1
 yakuza 6,jogo/acao/narrativa/beatn-up/yakuza/aventura/rpg/crime/mundo-aberto/comedia/jrpg/drama/terceira-pessoa/playstation,40,1
 tactical breach wizard,jogo/pc/estrategia/turno/narrativa/quebra-cabeca/humor/rpg/aventura/militar/indie/misterio/isometrico/fantasia,0,1
@@ -171,7 +171,7 @@ life and suffering of sir brante,jogo/pc/life-and-suffering/rpg/2d/visual-novel/
 final fantasy V,jogo/nintendo/jrpg/rpg/turno/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,10,1
 final fantasy VIII,jogo/nintendo/jrpg/rpg/turno/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,15,1
 romacing saga,jogo/nintendo/rpg/jrpg/fantasia/aventura/anime/medieval/comedia/retro/classico/pixel-art,0,1
-contradiction,jogo/detetive/crime/fmv/atmosferico/indie/ficcao-interativa/misterio/point-and-click/exploracao/rpg/narrativa/retro/immersive/conspiracao/aventura/estrategia/quebra-cabeca/cinematografico/pc,0,1
+contradiction,jogo/detetive/crime/fmv/atmosferico/indie/-interativa/misterio/point-and-click/exploracao/rpg/narrativa/retro/immersive/conspiracao/aventura/estrategia/quebra-cabeca/cinematografico/pc,0,1
 baldurs gate 2,jogo/pc/baldurs-gate/rpg/crpg/fantasia/tempo-real-com-pausa/old-school/aventura/magia,0
 deus ex,jogo/pc/cyberpunk/rpg/crpg/furtivo/classico/immersive-sim/primeira-pessoa/scifi/cult/acao/distopico/narrativa/atmosferico/conspiracao/tiro,0
 alpha protocol,jogo/pc/rpg/furtivo/acao/terceira-pessoa/narrativa/cult/tiro/aventura,0
@@ -186,8 +186,37 @@ dishonored,jogo/furtivo/primeira-pessoa/acao/assassinato/steampunk/narrativa/atm
 vampire the masquerade,jogo/pc/rpg/crpg/vampiro/cult/sobrenatural/terror/acao/sombrio/atmosferico/narrativa/classico/gotico/primeira-pessoa/immersive-sim/terceira-pessoa/aventura/furtivo,35
 shadowrun,jogo/pc/rpg/crpg/cyberpunk/turno/narrativa/isometrico/estrategia/indie/aventura/scifi/atmosferico/fantasia,0,1
 dragon quest IX,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/japao/nintendo,28,1
-o samurai,audiovisual/ficcao/drama/crime/franca/italia,0
-jackie brown,audiovisual/ficcao/suspense/drama/crime,5
-josey wales,audiovisual/ficcao/clint-eastwood/faroeste/acao/aventura/historia,9
-lonesome dove,audiovisual/ficcao/faroeste/acao/aventura/historia/eua,0
-o violinista no telhado,audiovisual/ficcao/romance/drama/familia,12
+o samurai,audiovisual/drama/crime/franca/italia,0
+jackie brown,audiovisual/suspense/drama/crime,5
+josey wales,audiovisual/clint-eastwood/faroeste/acao/aventura/historia,9
+lonesome dove,audiovisual/faroeste/acao/aventura/historia/eua,0
+o violinista no telhado,audiovisual/romance/drama/familia,12
+the witcher a lenda do lobo,audiovisual/drama/fantasia/scifi/animacao/acao/aventura,0
+The Witcher s2,audiovisual/drama/fantasia/terror/medieval/witcher/acao/aventura,0
+tim maia,audiovisual/musica/drama/historia/musical/biografia,0
+todos os homens do presidente,audiovisual/drama/historia/suspense,0
+tombstone,audiovisual/faroeste/drama/historia/romance/acao/aventura,0
+1492,audiovisual/historia/drama/acao/aventura/europa,0
+a conquista do oeste,audiovisual/faroeste/acao/aventura/historia/eua,8
+alianca do crime,audiovisual/drama/historia/crime/eua,0
+a queda,audiovisual/guerra/drama/acao/historia/europa,0
+atras das linhas inimigas,audiovisual/drama/espionagem/suspense/guerra/militar/acao/aventura,0
+band of brothers,audiovisual/guerra/acao/aventura/drama/historia,0
+chernobyl,audiovisual/drama/historia/misterio/suspense/catastrofe,0
+encouraçado potemkin,audiovisual/russia/drama/historia/suspense/guerra/militar,0
+fatherland nacao do medo,audiovisual/drama/historia/espionagem,0
+Great balls of fire,audiovisual/biografia/historia/musical/drama/eua,0
+greyhound,audiovisual/drama/acao/aventura/historia/guerra/militar,0
+hitchcock,audiovisual/drama/romance/comedia/biografia/,0
+imperio do sol,audiovisual/drama/acao/aventura/historia/guerra/militar,0
+marcas da violencia,audiovisual/drama/suspense/acao/aventura/crime,0
+o grande ditador,audiovisual/comedia/drama/guerra/militar/historia,0
+o milagre de berna,audiovisual/drama/comedia/europa/esporte,0
+onde começa o inferno,audiovisual/faroeste/drama/acao/aventura,0
+os eleitos,audiovisual/aventura/drama,8
+o ultimo imperador,audiovisual/drama/europa/historia,0
+pale rider,audiovisual/faroeste/drama/acao/violencia/eua,8
+Picard s3,audiovisual/scifi/espaco/star-trek/drama/aventura,0
+sicario,audiovisual/suspense/acao/aventura/crime/drama,0
+the proposition,audiovisual/faroeste/drama/acao/violencia/eua,0
+vidas ao vento,audiovisual/ghibli/animacao/drama/historia/romance/guerra/militar,0
