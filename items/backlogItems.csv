@@ -3,11 +3,10 @@ abbadons gate,livro/the-expanse/scifi/espaco/fantasia/aventura,0
 apocalipse now,audiovisual/apocalipse-now/drama/guerra/eua,0
 atlas da terra media,livro//tolkien/mapas/fantasia/senhor-dos-aneis,0
 babylon 5 s2,audiovisual/babylon-5/scifi/espaco/eua,0
-barba-azul,livro/kurt-vonnegut/classico/comedia/novel/-cientifica/estados-unidos/artes/contemporaneo,0
+barba-azul,livro/kurt-vonnegut/classico/comedia/novel/scifi/estados-unidos/artes/contemporaneo,0
 battlestar galactica s2,audiovisual/scifi/espaco/acao/aventura/politica,0
 brandon sanderson sampler,livro/fantasia/epico/alta-fantasia/scifi/aventura,0
 casa nobre,livro/james-clavell/-historica/historia/asia/china/aventura/suspense/novel/classico,0
-CRPG book,livro/jogos/historia/rpg/crpg/artes/resenhas,0
 Dodesukaden,audiovisual/drama/kurosawa/japao/classico/cult/samurai,0
 Dreams,audiovisual/drama/kurosawa/japao/classico/cult,0
 drunken angel,audiovisual/kurosawa/japao/drama/crime/romance/suspense,15
@@ -58,7 +57,7 @@ star wars knight knights of the old republic 2,jogo/pc/rpg/narrativa/scifi/class
 final fantasy IX,jogo/nintendo/jrpg/rpg/turno/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,10,1
 dragon quest builders,jogo/dragon-quest/rpg/plataforma/jrpg/3d/fofo/terceira-pessoa/acao/voxel/mundo-aberto/fantasia/colorido/anime/survivor/construcao/aventura/crafting/nintendo,24,1
 pentiment,jogo/aventura/historia/investigacao/narrativa/estilizado/exploracao/desenhado-a-mao/-interativa/misterio/detetive/2d/conspiracao/casual/medieval/point-and-click/nintendo,20,1
-pathfinder kingmaker,jogo/pc/pathfinder/rpg/crpg/fantasia/isometrico/narrativa/tempo-real-com-pausa/dungeons-and-dragons/aventura/estrategia/medieval/mundo-aberto,0
+pathfinder kingmaker,jogo/pc/pathfinder/rpg/isometrico/3d/tempo-real-com-pausa/fantasia-medieval,0
 bloodstained curse of the moon,jogo/acao/pixel-art/retro/plataforma/metroidvania/2d/side-scrolling/gotico/aventura/dificil/fantasia/arcade/indie/anime/dark-fantasy/vampiro/classico/nintendo,0
 blade runner,jogo/aventura/point-and-click/cinematografico/fmv/anos-80/cyberpunk/alt-history/ai/atmosferico/sombrio/crime/distopia/scifi/misterio/noir/retro/visual-novel,0
 solasta,jogo/pc/rpg/crpg/narrativa/turno/dungeons-and-dragons/aventura/fantasia/estrategia,0,1
@@ -69,7 +68,7 @@ dragon quest VIII,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/ja
 dragon quest VII,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/japao/nintendo,28,1
 animal well,jogo/switch/exploracao/metroidvania/quebra-cabeca/plataforma/terror/pixel-art/aventura/acao/misterio/2d/atmosferico/relaxante/fofo/surrealista/nao-linear/retro/indie,25,1
 chained echoes,jogo/rpg/jrpg/nintendo/indie/pixel-art/turno/retro/exploracao/2d/narrativa/mechas/fantasia/anime/mundo-aberto/aventura,48,1
-pathfinder wrath of the righteous,jogo/pc/pathfinder/rpg/crpg/isometrico/3d/tempo-real-com-pausa/fantasia-medieval,0
+pathfinder wrath of the righteous,jogo/pc/pathfinder/rpg/isometrico/3d/tempo-real-com-pausa/fantasia-medieval,0
 final fantasy vi,jogo/nintendo/jrpg/rpg/turno/pixel-art/party-rpg/2d/exploracao/fantasia/retro/magia/aventura/remake/narrativa/anime,10,1
 final fantasy XVI,jogo/rpg/jrpg/fantasia/aventura/anime/medieval/acao/terceira-pessoa/3d/playstation,70,1
 dragon quest IV,jogo/dragon-quest/jrpg/rpg/fantasia/medieval/aventura/anime/japao/nintendo,22,1
@@ -81,7 +80,6 @@ star trek ressurgence,jogo/-interativa/visual-novel/point-and-click/acao/aventur
 daredevil the man without fear,livro/demolidor/super-heroi,0
 x-men dark phoenix,livro/hq/x-men/super-heroi,0
 kingdom come,livro/hq/dc/super-heroi,0
-x-men 97,audiovisual/animacao/x-men/super-heroi,0
 authority,livro/hq/super-heroi/dc,0
 crise nas infinitas terras,livro/hq/super-heroi/dc,0
 demolidor frank miller e klaus johnson,livro/hq/super-heroi/demolidor,0
@@ -91,3 +89,4 @@ ciclope e fenix,livro/hq/super-heroi/x-men,0
 dias de um futuro esquecido,livro/hq/super-heroi/x-men,0
 martial law,livro/hq/super-heroi/martial-law,0
 hellboy,livro/hq/hellboy/fantasia,0
+Cyberpunk 2077,jogo/playstation/cyberpunk-2077/rpg/primeira-pessoa/3d/shooter/cyberpunk,0,1
