@@ -8,11 +8,11 @@ The Post,audiovisual/drama/eua,2020-10-17
 Moneyball,audiovisual/drama/eua,2020-11-01
 Star Trek First Contact,audiovisual/star-trek/scifi/espaco/space-opera/eua,2020-11-28
 O Senhor dos Anéis As Duas Torres,audiovisual/senhor-dos-aneis/fantasia/nova-zelandia,2020-12-06
-Mario Galaxy,jogo/nintendo/mario/aventura/terceira-pessoa/3d/plataforma/fantasia,2020-10-25
-Magikarp Jump,jogo/mobile/pokemon/idle/visao-2d/2d/desenhado/escolha/fantasia,2020-10-29
-Halo,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2020-11-26
-Mafia,jogo/playstation/mafia-serie/acao/terceira-pessoa/3d/mundo-aberto/mafia,2020-12-03
-Super Luckys Tale,jogo/pc/super-luckys-tale/aventura/terceira-pessoa/3d/plataforma/fantasia,2020-12-03
+Mario Galaxy,jogo/nintendo/mario/aventura/plataforma/mundo-de-mario,2020-10-25
+Magikarp Jump,jogo/mobile/pokemon/idle/escolha/mundo-de-pokemon,2020-10-29
+Halo,jogo/pc/halo/fps/acao/shooter/scifi,2020-11-26
+Mafia,jogo/playstation/mafia-serie/acao/mundo-aberto/mafia,2020-12-03
+Super Luckys Tale,jogo/pc/super-luckys-tale/aventura/plataforma/fantasia,2020-12-03
 The Witcher O Último Desejo,livro/witcher/fantasia/contos/alta-fantasia/aventura,2019-01-01
 The Witcher A Espada do Destino,livro/witcher/fantasia/contos/alta-fantasia/aventura,2019-02-01
 The Witcher O Sangue dos Elfos,livro/witcher/fantasia/contos/alta-fantasia/aventura,2019-03-01
@@ -34,15 +34,15 @@ Sonhos de Robô,livro/asimov/scifi/contos/robos/antologia,2019-09-21
 Lobo Solitário 16,livro/lobo-solitario/samurai,2019-09-26
 1808,livro/laurentino-gomes/historia/brasil/portugal/politica,2019-10-01
 1822,livro/laurentino-gomes/historia/brasil/portugal/politica,2020-10-01
-The Witcher 3,jogo/playstation/the-witcher/rpg/crpg/terceira-pessoa/3d/acao/fantasia-medieval,2019-01-01
-Mario+Rabbits,jogo/estrategia/mario/aventura/nintendo/rabbids/acao,2019-01-01
+The Witcher 3,jogo/playstation/the-witcher/rpg/acao/fantasia-medieval,2019-01-01
+Mario+Rabbits,jogo/nintendo/mario+rabbids/estrategia/estrategia/mundo-de-mario,2019-01-01
 Quarantine Circular,jogo/nintendo/circular/visual-novel/cena-estatica/3d/escolha/scifi/alienigena,2019-01-01
 Fifa 19,jogo/esporte/futebol/multiplayer/gerenciamento/fifa/playstation,2019-01-01
-Spider-man,jogo/playstation/spider-man/acao/terceira-pessoa/3d/mundo-aberto/moderno,2019-01-01
-Tacoma,jogo/pc/tacoma/quebra-cabeca/primeira-pessoa/3d/walking-simulator/scifi/espaco,2019-06-16
+Spider-man,jogo/playstation/spider-man/acao/mundo-aberto/moderno,2019-01-01
+Tacoma,jogo/pc/tacoma/quebra-cabeca/walking-simulator/scifi/espaco,2019-06-16
 Orwell,jogo/pc/orwell/quebra-cabeca/console/2d/point-and-click/scifi,2019-06-20
-Link's Awakening,zelda/jogo/aventura/fantasia/exploracao/acao/nintendo,2019-09-24
-Return of The Obra Dinn,jogo/nintendo/obra-dinn/crime/primeira-pessoa/pixel-art/quebra-cabeca/pirata,2019-12-01
+Link's Awakening,jogo/nintendo/zelda/aventura/acao/fantasia-medieval,2019-09-24
+Return of The Obra Dinn,jogo/nintendo/obra-dinn/crime/quebra-cabeca/pirata,2019-12-01
 The Handmaiden,audiovisual/drama/coreia-do-sul,2019-01-01
 Love Death Robots,audiovisual/scifi/espaco/cyberpunk/animacao/fantasia,2019-02-01
 The Office season 1,audiovisual/the-office/mockumentary/comedia/eua,2019-03-01
@@ -103,11 +103,11 @@ Meu nome é dolemite,audiovisual/biografia/eua,2020-06-13
 Senhor das Armas,audiovisual/biografia/eua,2020-07-19
 Contos de Terramar,audiovisual/animacao/fantasia/medieval/ghibli/ursula-k-le-guin,2020-08-01
 O Senhor dos Anéis As Duas Torres,audiovisual/fantasia/senhor-dos-aneis/tolkien/aventura/acao,2020-08-02
-Yakuza 0,jogo/playstation/yakuza/rpg/jrpg/terceira-pessoa/3d/acao/mafia,2021-03-18
-Furi,jogo/acao/bullet-hell/indie/hackn-slash/anime/playstation,2020-04-16
-Final Fantasy 7 Remake,jogo/playstation/final-fantasy/final-fantasy-7/rpg/jrpg/terceira-pessoa/3d/acao/turno/fantasia/scifi/cybperunk,2020-05-01
-Ghost of Tsushima,jogo/mundo-aberto/acao/acao/exploracao/aventura/playstation,2020-09-11
-Rise of Tomb Raider,jogo/playstation/tomb-raider/aventura/terceira-pessoa/3d/acao/moderno,2020-09-22
+Yakuza 0,jogo/playstation/yakuza/rpg/acao/mafia,2021-03-18
+Furi,jogo/playstation/furi/acao/bullet-hell/hackn-slash/scifi,2020-04-16
+Final Fantasy 7 Remake,jogo/playstation/final-fantasy/rpg/acao/scifi,2020-05-01
+Ghost of Tsushima,jogo/playstation/ghost-of-tsushima/acao/hackn-slash/samurai,2020-09-11
+Rise of Tomb Raider,jogo/playstation/tomb-raider/aventura/acao/fantasia-moderna,2020-09-22
 De Volta para o Futuro,audiovisual/scifi/comedia/viagem-no-tempo/aventura/romance,2020-12-19
 O Natal dos Muppets,audiovisual/comedia/muppets/eua,2020-12-25
 stalker,audiovisual/scifi/uniao-sovietica,2020-12-28
@@ -135,12 +135,12 @@ Lobo Solitario 23,livro/lobo-solitario/samurai,2020-12-01
 Pra Frente Brasil,audiovisual/drama/eua,2021-01-17
 jeremiah johnson,audiovisual/faroeste/eua,2021-01-24
 O Senhor dos Anéis O Retorno do Rei,livro/senhor-dos-aneis/tolkien/aventura/alta-fantasia/epica,2021-02-06
-Dragon Quest XI,jogo/pc/dragon-quest/rpg/jrpg/terceira-pessoa/3d/turno/fantasia-medieval,2021-02-14
+Dragon Quest XI,jogo/pc/dragon-quest/rpg/turno/fantasia-medieval,2021-02-14
 avgn season 4,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2021-02-13
-super mario 3d land,jogo/plataforma/mario/aventura/nintendo/coletaton/nintendo,2021-02-19
-A Short Hike,jogo/pc/a-short-hike/aventura/isometrico/pixel-art/exploracao/fantasia,2021-02-20
+super mario 3d land,jogo/nintendo/mario/aventura/plataforma/mundo-de-mario,2021-02-19
+A Short Hike,jogo/pc/a-short-hike/aventura/quebra-cabeca/fantasia,2021-02-20
 destravado,audiovisual/documentario/jogos/brasil/historia/omelete,2021-02-21
-zelda link berween worlds,zelda/jogo/aventura/fantasia/acao/nintendo/nintendo,2021-02-28
+zelda link between worlds,jogo/nintendo/zelda/aventura/acao/fantasia-medieval,2021-02-28
 o escandalo,audiovisual/drama/eua,2021-03-07
 A Guerra dos Consoles,livro/blake-harris/historia/jogos/tecnologia/biografia,2021-03-07
 destacamento blood,audiovisual/spike-lee/guerra/drama/eua,2021-03-19
@@ -165,7 +165,7 @@ riqueza toxica,audiovisual/scifi/eua,2021-04-24
 sandman 9,livro/sandman/fantasia,2021-05-01
 dois estranhos,audiovisual/drama/scifi/eua,2021-05-02
 wandavision,audiovisual/vingadores/super-heroi,2021-05-02
-shenmue,jogo/playstation/shenmue/rpg/jrpg/terceira-pessoa/3d/acao/japao,2021-05-05
+shenmue,jogo/playstation/shenmue/rpg/acao/japao,2021-05-05
 lobo solitario 24,livro/lobo-solitario/samurai,2021-05-06
 lobo solitario 25,livro/lobo-solitario/samurai,2021-05-12
 avgn season 5,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2021-05-12
@@ -173,32 +173,32 @@ relatos do mundo,audiovisual/faroeste/eua,2021-05-16
 o som do silencio,audiovisual/drama/eua/franca,2021-05-23
 archipel keichi okabe,audiovisual/documentario/jogos/musica/archipel/musica,2021-05-16
 invincible,audiovisual/super-heroi/invincible,2021-05-27
-Halo 2,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-05-28
+Halo 2,jogo/pc/halo/fps/acao/shooter/scifi/espaco,2021-05-28
 portoes de fogo,livro/historia/-militar/grecia/antiguidade/steven-pressfield,2021-05-30
 avgn season 6,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2021-06-03
 infiltrado na klan,audiovisual/drama/policial/eua,2021-06-05
-Halo 3,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-06-06
-dragon quest I,jogo/nintendo/dragon-quest/rpg/jrpg/de-cima/pixel-art/turno/fantasia-medieval,2021-06-08
+Halo 3,jogo/pc/halo/fps/acao/shooter/scifi/espaco,2021-06-06
+dragon quest I,jogo/nintendo/dragon-quest/rpg/turno/fantasia-medieval,2021-06-08
 falcao e o soldado invernal,audiovisual/super-heroi/marvel,2021-06-18
-Halo 3 odst,jogo/pc/halo/fps/primeira-pessoa/3d/acao/shooter/scifi/espaco,2021-06-19
+Halo 3 odst,jogo/pc/halo/fps/acao/shooter/scifi/espaco,2021-06-19
 a viagem de chihiro,audiovisual/japao/ghibli/fantasia/animacao/infantil,2021-06-20
 Sapiens,livro/historia/ciencias/filosofia/antropologia/sociologia,2021-06-24
 astros playroom,jogo/aventura/plataforma/coletaton/terceira-pessoa/playstation,2021-06-27
-Spider-man Miles Morales,jogo/playstation/spider-man/acao/terceira-pessoa/3d/mundo-aberto/moderno,2021-07-04
+Spider-man Miles Morales,jogo/playstation/spider-man/acao/mundo-aberto/moderno,2021-07-04
 a companhia negra,livro/glen-cook/companhia-negra/fantasia/dark-fantasy/epica,2021-07-08
 uma noite em miami,audiovisual/drama/eua,2021-07-10
 memorias de uma gueixa,audiovisual/drama/japao/eua,2021-07-11
 the expanse s3,audiovisual/scifi/espaco/the-expanse/eua,2021-07-13
 loki,audiovisual/marvel/super-heroi/eua,2021-07-15
 adeus lenin,audiovisual/drama/alemanha,2021-07-18
-horizon zero dawn,jogo/playstation/horizon/mundo-aberto/terceira-pessoa/3d/acao/scifi,2021-07-18
+horizon zero dawn,jogo/playstation/horizon/mundo-aberto/acao/scifi,2021-07-18
 metroid zero mission,jogo/acao/aventura/metroidvania/metroid/scifi/nintendo,2021-07-23
 imperdoáveis,audiovisual/faroeste/eua,2021-07-24
 brooklyn 99 s2,audiovisual/comedia/brooklin-99/eua,2021-07-27
 sombras eternas,livro/glen-cook/companhia-negra/fantasia/dark-fantasy/epica,2021-07-27
 avgn season 7,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2021-08-01
 Flores para Algernon,livro/classico/scifi/young-adult/literatura/psicologia,2021-08-04
-Thronebreaker,jogo/playstation/the-witcher/rpg/isometrico/2d/deckbuilding/fantasia-medieval,2021-08-11
+Thronebreaker,jogo/playstation/the-witcher/rpg/deckbuilding/fantasia-medieval,2021-08-11
 brooklyn 99 s3,audiovisual/comedia/brooklin-99/eua,2021-08-13
 cinema paradiso,audiovisual/drama/italia,2021-08-14
 brooklyn 99 s4,audiovisual/comedia/brooklin-99/eua,2021-08-25
@@ -248,9 +248,9 @@ avgn season 14,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,202
 avgn season 13,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2019-12-31
 Apresentando os Ricardos,audiovisual/drama/eua,2022-02-20
 The Office season 8,audiovisual/the-office/muckumentary/comedia/eua,2022-03-01
-horizon zero dawn frozen wilds,playstation/horizon/eua/terceira-pessoa/3d/acao/scifi,2022-02-25
+horizon zero dawn frozen wilds,playstation/horizon/eua/acao/scifi,2022-02-25
 Estacao perdido,livro/fantasia/scifi/avgn/documentario/videogame/eua,2022-02-28
-pokemon black,jogo/nintendo/pokemon/rpg/jrpg/de-cima/pixel-art/turno/fantasia,2021-01-12
+pokemon black,jogo/nintendo/pokemon/rpg/turno/mundo-de-pokemon,2021-01-12
 avgn season 8,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2022-04-08
 sandman 11,livro/sandman/fantasia,2022-04-12
 resident evil 7,jogo/terror/primeira-pessoa/acao/quebra-cabeca/exploracao/playstation,2022-04-16
@@ -262,17 +262,17 @@ anti-heroi americano,audiovisual/drama/comedia/biografia/eua,2022-05-15
 A quinta estacao,livro/n-k-jemisin/fantasia/scifi/distopia/pos-apocaliptico/alta-fantasia,2022-05-20
 avgn season 9,audiovisual/documentario/jogos/comedia/avgn/resenhas/historia,2022-05-26
 os suspeitos dennis villeneuve,audiovisual/drama/policial/eua,2022-06-04
-elden ring,jogo/playstation/dark-souls/rpg/terceira-pessoa/3d/acao/fantasia-medieval,2022-06-09
+elden ring,jogo/playstation/dark-souls/rpg/acao/fantasia-medieval,2022-06-09
 mad max fury road,audiovisual/scifi/acao/aventura/dieselpunk/pos-apocaliptico,2022-06-14
 raiden v,jogo/acao/shootn-up/bullet-hell/arcade/scifi/navinha,2022-06-14
 duna,audiovisual/duna/scifi/space-opera/eua,2022-06-25
 tico e teco ao resgate,audiovisual/comedia/eua,2022-06-26
 frostpunk,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2022-06-28
 toem,jogo/aventura/quebra-cabeca/point-and-click/relaxante/causal/nintendo,2022-07-05
-until dawn,jogo/playstation/until-dawn/visual-novel/terceira-pessoa/3d/escolha/qte/terror,2022-07-10
+until dawn,jogo/playstation/until-dawn/visual-novel/escolha/qte/terror,2022-07-10
 lobo solitario 26,livro/lobo-solitario/samurai,2021-05-16
 duna,livro/frank-hebert/scifi/fantasia/aventura/espaco,2022-07-18
-ff7 yuffie,jogo/playstation/final-fantasy/final-fantasy-7/rpg/jrpg/terceira-pessoa/3d/acao/turno/fantasia/scifi/cybperunk,2022-08-11
+ff7 yuffie,jogo/playstation/final-fantasy/rpg/acao/scifi,2022-08-11
 a lenda do cavaleiro verde,audiovisual/fantasia/eua,2022-08-07
 the expanse s5,audiovisual/scifi/espaco/the-expanse,2022-08-07
 a rosa branca,livro/glen-cook/companhia-negra/fantasia/dark-fantasy/epica,2022-08-23
@@ -287,7 +287,7 @@ manifesto do partido comunista,livro/marx/engels/marxismo/comunismo/socialismo/p
 o senhor dos aneis o retorno do rei,audiovisual/fantasia/senhor-dos-aneis/tolkien/acao/aventura,2022-10-09
 o senhor dos aneis os aneis de poder,audiovisual/fantasia/senhor-dos-aneis/tolkien/acao/aventura,2022-09-30
 the expanse s6,audiovisual/scifi/espaco/the-expanse,2022-10-09
-detroit,jogo/playstation/visual-novel/terceira-pessoa/3d/escolha/qte/scifi,2022-10-08
+detroit,jogo/playstation/visual-novel/escolha/qte/scifi,2022-10-08
 the butcher of anderson station,livro/the-expanse/scifi/contos/espaco/espaco,2022-10-10
 Cuphead,jogo/acao/plataforma/indie/bullet-hell/comedia/nintendo,2022-10-10
 baba is you,jogo/quebra-cabeca/indie/nintendo/retro/dificil/programacao,2022-10-10
@@ -295,7 +295,7 @@ a revolucao albanesa,audiovisual/historia-publica/albania/marxismo/politica/soci
 realismo capitalista,audiovisual/historia-publica/marxismo/politica/comunismo/socialismo,2022-10-13
 laos 1,audiovisual/historia-publica/marxismo/politica/socialismo/laos/historia,2022-10-13
 porque odiamos margaret tatcher,audiovisual/historia-publica/marxismo/politica/liberalismo/inglaterra/,2022-10-13
-loop hero,jogo/pc/loop-hero/roguelike/de-cima/pixel-art/deckbuilding/fantasia-medieval,2022-10-13
+loop hero,jogo/pc/loop-hero/roguelike/deckbuilding/fantasia-medieval,2022-10-13
 think thank,audiovisual/historia-publica/marxismo/politica/comunismo/socialismo/,2022-10-14
 guia introdutorio ao pensamento marxista,livro/Kohan/marxismo/filosofia/politica/socialismo/,2022-10-19
 Imperialismo Etapa Superior do Capitalismo,lenin/economia/politica/historia/russia/socialismo,2022-10-21
@@ -318,7 +318,7 @@ integralismo,audiovisual/historia-publica/marxismo/politica/socialismo/historia,
 principios basicos comunismo,audiovisual/historia-publica/marxismo/comunismo/socialismo/politica,2023-01-10
 god of war ragnarok,jogo/god-of-war/acao/terceira-pessoa/aventura/playstation,2023-01-12
 phoenix wright 2,jogo/nintendo/phoenix-wright/visual-novel/primeira-pessoa/pixel-art/quebra-cabeca/tribunal,2023-01-22
-rogue legaxy 2,jogo/pc/rogue-legacy/roguelike/side-scrolling/2d/acao/fantasia-medieval,2023-01-23
+rogue legaxy 2,jogo/pc/rogue-legacy/roguelike/acao/fantasia-medieval,2023-01-23
 aeroporto area restrita s1,audiovisual/documentario/brasil,2023-02-01
 the last of us 2,jogo/playstation/the-last-of-us/acao/aventura/terror/terceira-pessoa,2023-02-06
 aeroporto area restrita s2,audiovisual/documentario/brasil,2023-02-07
@@ -334,11 +334,11 @@ history of donkey kong,audiovisual/documentario/jogos/historia/biografia/gaming-
 the last of us,audiovisual/the-last-of-us/terror/drama/eua,2023-03-12
 dexdrive,audiovisual/documentario/jogos/historia/biografia/gaming-historian/computacao,2023-03-16
 history of star fox,audiovisual/documentario/jogos/historia/biografia/people-make-games,2023-03-16
-hogwarts legacy,jogo/playstation/harry-potter/rpg/terceira-pessoa/3d/acao/fantasia,2023-03-14
+hogwarts legacy,jogo/playstation/harry-potter/rpg/acao/fantasia,2023-03-14
 vampire survivors,jogo/acao/roguelike/bullet-hell/indie/arcade/fantasia,2023-03-17
 aeroporto area restrita s4,audiovisual/documentario/brasil,2023-03-21
 currents of space,livro/asimov/scifi/espaco,2023-03-27
-dragon quest II,jogo/nintendo/dragon-quest/rpg/jrpg/de-cima/pixel-art/turno/fantasia-medieval,2023-03-29
+dragon quest II,jogo/nintendo/dragon-quest/rpg/turno/fantasia-medieval,2023-03-29
 frostpunk new home,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2023-04-05
 mario,audiovisual/mario/aventura/fantasia/eua,2023-04-07
 frostpunk arca,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2023-04-09
@@ -373,7 +373,7 @@ estrela vermelha,livro/scifi/comunismo/socialismo/russia/europa,2023-07-25
 big bang theory s2,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-07-28
 big bang theory s3,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-08-06
 advance wars,jogo/nintendo/advance-wars/rts/isometrico/2d/estrategia/turno/guerra,2023-08-11
-Tears of the kingdom,jogo/nintendo/zelda/mundo-aberto/terceira-pessoa/3d/acao/fantasia-medieval,2023-08-11
+Tears of the kingdom,jogo/nintendo/zelda/aventura/acao/fantasia-medieval,2023-08-11
 venezuela,audiovisual/historia-publica/venezuela/marxismo/politica/socialismo,2023-08-28
 big bang theory s4,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-08-29
 big bang theory s5,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-08-29
@@ -387,7 +387,7 @@ operacao fronteira s1,audiovisual/documentario/brasil,2023-10-17
 nao nao olhe,audiovisual/terror/suspense/alienigena/scifi/eua,2023-10-14
 estrada para perdicao,audiovisual/mafia/eua,2023-10-21
 retro games scam,audiovisual/documentario/videogame/crime/eua,2023-10-21
-Divinity 2,jogo/divinity/switch/rpg/crpg/turno/estrategia/narrativa/fantasia/exploracao/isometrico,2023-10-25
+Divinity 2,jogo/nintendo/divinity/rpg/turno/fantasia-medieval,2023-10-25
 big bang theory s7,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-10-26
 big bang theory s8,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-10-26
 people make games,audiovisual/documentario/jogos/historia/biografia/people-make-games,2023-10-26
@@ -402,14 +402,14 @@ big bang theory s9,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2023-1
 kitchen nightmare,audiovisual/reality/culinaria/eua,2023-12-08
 Kagemusha,audiovisual/drama/guerra/japao/samurai,2023-12-10
 gatilho,livro/quadrinho/faroeste/drama,2023-12-11
-red dead redemption 2,jogo/plataforma/red-dead-redemption/acao/terceira-pessoa/3d/shooter/faroeste,2023-12-20
+red dead redemption 2,jogo/plataforma/red-dead-redemption/acao/shooter/faroeste,2023-12-20
 heroi de brinquedo,audiovisual/natal/aventura/comedia/familia,2023-12-01
 grinch,audiovisual/natal/comedia/familia,2023-12-01
 the bear,audiovisual/drama/the-bear,2023-12-25
 Return of The Obra Dinn,jogo/nintendo/obra-dinn/investigacao/primeira-pessoa/pixel-art/quebra-cabeca/pirata,2023-12-25
 john wick,filme/acao/aventura/mafia,2024-01-01
 pesadelo na cozinha,audiovisual/reality/culinaria/,2024-01-18
-dragon quest III,jogo/nintendo/dragon-quest/rpg/jrpg/de-cima/pixel-art/turno/fantasia-medieval,2024-01-19
+dragon quest III,jogo/nintendo/dragon-quest/rpg/turno/fantasia-medieval,2024-01-19
 god of war ragnarok valhalla,jogo/god-of-war/acao/terceira-pessoa/aventura/playstation,2024-01-21
 O olho do mundo,livro/roda-do-tempo/fantasia/epica/alta-fantasia/aventura/epico,2024-02-02
 aeroporto area restrita s6,audiovisual/documentario/brasil,2024-02-20
@@ -417,7 +417,7 @@ duna 2,audiovisual/scifi/eua,2024-03-09
 masterchef +,audiovisual/reality-show/culinaria/band/masterchef/brasil,2024-03-11
 masterchef 1,audiovisual/reality-show/culinaria/band/masterchef/brasil,2024-04-02
 indiana jones e a arca da alianca,audiovisual/indiana-jones/aventura/eua,2024-02-01
-Yakuza 2,jogo/playstation/yakuza/rpg/jrpg/terceira-pessoa/3d/acao/mafia,2024-04-09
+Yakuza 2,jogo/playstation/yakuza/rpg/acao/mafia,2024-04-09
 the bear s2,audiovisual/drama/the-bear,2024-04-09
 frostpunk refugee,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2024-04-11
 what to do if fortnite steals your dance,audiovisual/documentario/jogos/historia/biografia/people-make-games,2024-04-13
@@ -426,18 +426,18 @@ big bang theory s11,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2024-
 o povo contra OJ,audiovisual/crime/drama/eua,2024-04-23
 mad max fury road,audiovisual/scifi/acao/aventura/dieselpunk/pos-apocaliptico,2024-04-26
 xogum,audiovisual/drama/japao,2024-05-12
-history of japanese RPGs,livro/jogos/historia/rpg/jrpg/computacao/artes/resenhas,2024-05-17
+history of japanese RPGs,livro/jogos/historia/rpg/computacao/artes/resenhas,2024-05-17
 the quiet duel,audiovisual/drama/kurosawa/japao/classico/cult,2024-05-28
 o castelo animado,audiovisual/japao/ghibli/fantasia/drama/animacao/familia,2024-05-30
 big bang theory s11,audiovisual/comedia/sitcon/familia/hbo/big-bang-theory,2024-05-31
 astros playroom,jogo/plataforma/aventura/coletaton/familia,2024-06-01
 1889,livro/historia/brasil/literatura-brasileira/laurentino-gomes,2024-06-15
-pokemon arceus,jogo/nintendo/pokemon/rpg/jrpg/terceira-pessoa/3d/turno/fantasia,2024-06-01
+pokemon arceus,jogo/nintendo/pokemon/rpg/turno/mundo-de-pokemon,2024-06-01
 people make games peter molineu,audiovisual/documentario/jogos/historia/biografia/people-make-games/peter-molineu,2024-06-05
-pokemon arceus post game,jogo/nintendo/pokemon/rpg/jrpg/terceira-pessoa/3d/turno/fantasia,2024-06-19
+pokemon arceus post game,jogo/nintendo/pokemon/rpg/turno/mundo-de-pokemon,2024-06-19
 gods risk,livro/the-expanse/scifi/espaco/fantasia/aventura/space-opera/conto/adulto/-especulativa,2024-06-20
 frostpunk the last autumn,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2024-06-24
-undertale,jogo/pc/undertale/rpg/jrpg/isometrico/pixel-art/turno/fantasia,2024-07-06
+undertale,jogo/pc/undertale/rpg/turno/fantasia,2024-07-06
 frostpunk on the edge,jogo/city-building/sobrevivencia/gerenciamento-de-recursos/estrategia/steampunk/simulacao/atmosferico/economia/sombrio/rts/frostpunk/playstation,2024-07-08
 the case of the golden idol,jogo/pc/golden-idol/investigacao/side-scrolling/pixel-art/quebra-cabeca/fantasia,2024-07-11
 a bruxa,audiovisual/terror/drama/fantasia/misterio/suspense/europeu,2024-07-20
@@ -445,11 +445,11 @@ esquadrao 51 contra os discos voadores,jogo/pc/esquadrao-51/navinha/de-cima/fmv/
 house of the dragon,audiovisual/fantasia/drama/game-of-thrones/politica/hbo,2024-08-16
 deadpool and wolverine,audiovisual/marvel/deadpool/wolverine/super-heroi/acao/aventura/humor/adulto,2024-08-20
 alien,audiovisual/scifi/terror/espaco/alienigena/classico,2024-09-01
-Mass Effect 1,jogo/pc/mass-effect/rpg/crpg/terceira-pessoa/3d/acao/scifi,2024-09-04
+Mass Effect 1,jogo/pc/mass-effect/rpg/acao/scifi,2024-09-04
 o farol,audiovisual/drama/fantasia/suspense/terror,2024-09-14
 godzilla,audiovisual/drama/godzilla,2024-09-16
 memorias de um assassino,audiovisual/drama/policial,2024-09-18
-Mass Effect 2,jogo/pc/mass-effect/acao/terceira-pessoa/3d/shooter/scifi,2024-09-23
+Mass Effect 2,jogo/pc/mass-effect/acao/shooter/scifi,2024-09-23
 elvira,audiovisual/fantasia/terror/comedia,2024-10-04
 x-men 97,audiovisual/animacao/x-men/super-heroi,2024-10-06
 CRPG book,livro/jogos/historia/rpg/crpg/artes/resenhas,2024-10-07

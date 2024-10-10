@@ -1,3 +1,2 @@
-tipo,plataforma,serie,genero/subgenero,visao,graficos,gameplay,ambientacao
-jogo/nintendo/pokemon/rpg/jrpg/de-cima/pixel-art/turno/fantasia
-jogo/pokemon/rpg/aventura/anime/jrpg/nintendo
+tipo,plataforma,serie,genero/subgenero,gameplay,ambientacao
+jogo/mundo-aberto/acao/acao/exploracao/aventura/playstation
