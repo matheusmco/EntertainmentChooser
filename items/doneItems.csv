@@ -6,8 +6,8 @@ Limites da Fundação,livro/asimov/scifi/romance/espaco/-especulativa,2020-12-16
 O Irlandês,filme/mafia/eua,2020-10-03
 The Post,filme/drama/eua,2020-10-17
 Moneyball,filme/drama/eua,2020-11-01
-Star Trek First Contact,filme/star-trek/scifi/espaco/space-opera/eua,2020-11-28
-O Senhor dos Anéis As Duas Torres,filme/senhor-dos-aneis/fantasia/nova-zelandia,2020-12-06
+Star Trek First Contact,filme/star-trek/scifieua,2020-11-28
+O Senhor dos Anéis As Duas Torres,filme/senhor-dos-aneis/fantasia/eua,2020-12-06
 Mario Galaxy,jogo/nintendo/mario/aventura/plataforma/mundo-de-mario,2020-10-25
 Magikarp Jump,jogo/mobile/pokemon/idle/escolha/mundo-de-pokemon,2020-10-29
 Halo,jogo/pc/halo/fps/acao/shooter/scifi,2020-11-26
@@ -49,21 +49,21 @@ The Office season 1,serie/the-office/mockumentary/comedia/eua,2019-03-01
 The Office season 2,serie/the-office/mockumentary/comedia/eua,2019-03-02
 The Office season 3,serie/the-office/mockumentary/comedia/eua,2019-03-03
 The Office season 4,serie/the-office/mockumentary/comedia/eua,2019-03-04
-Avengers Endgame,filme/vingadores/super-heroi,2019-04-01
-Blade Runner 2049,filme/scifi/cyberpunk/blade-runner/eua,2019-05-01
-Game of Thrones,filme/fantasia/medieval/drama/game-of-thrones/politica,2019-06-01
+Avengers Endgame,filme/vingadores/super-heroi/eua,2019-04-01
+Blade Runner 2049,filme/scifi/blade-runner/eua,2019-05-01
+Game of Thrones,serie/fantasia/medieval/drama/game-of-thrones/politica,2019-06-01
 Bastardos Inglórios,filme/guerra/eua,2019-06-01
 Hell or High Water,filme/drama/faroeste/eua,2019-06-01
 A Grande Aposta,filme/drama/comedia/eua,2019-06-30
 Caçada ao Outubro Vermelho,filme/guerra/eua,2019-07-09
 Era uma vez em Hollywood,filme/drama/eua,2019-08-27
 Os Intocáveis,filme/mafia/eua,2019-09-26
-Ad Astra,filme/james-gray/scifi/espaco/cyberpunk/ciencia,2019-10-06
+Ad Astra,filme/james-gray/scifi/eua,2019-10-06
 Joker,filme/drama/eua,2019-10-14
-Star Trek 8,filme/scifi/acao/aventura/star-trek/espaco,2019-11-23
+Star Trek 8,filme/scifi/star-trek/eua,2019-11-23
 Sandman 3,livro/sandman/fantasia,2019-12-09
 Lobo Solitario 17,livro/lobo-solitario/samurai,2019-12-17
-Star Wars 9,filme/scifi/espaco/aventura/star-wars/disney,2019-12-18
+Star Wars 9,filme/scifi/aventura/star-wars/eua,2019-12-18
 The Mandalorian,serie/scifi/espaco/star-wars/aventura/acao,2019-12-30
 Asimov The Complete series 1,livro/asimov/scifi/contos/fantasia/antologia,2020-01-02
 Beren e Luthien,livro/tolkien/senhor-dos-aneis/fantasia/alta-fantasia/epica,2020-01-27
@@ -92,7 +92,7 @@ Entre facas e segredos,filme/knives-out/crime/comedia/eua,2020-01-11
 The Witcher s1,serie/fantasia/witcher/eua,2020-01-23
 Matar ou morrer,filme/faroeste/eua,2020-02-01
 Jojo Rabbit,filme/guerra/drama/nova-zelandia,2020-12-08
-Cowboys do Espaço,filme/scifi/espaco/drama/eua,2020-02-16
+Cowboys do Espaço,filme/scifi/drama/eua,2020-02-16
 O Rei da Comédia,filme/drama/eua,2020-03-08
 The Circle,serie/reality-show/eua,2020-03-09
 The Circle Brasil,serie/reality-show/brasil,2020-03-29
@@ -427,7 +427,7 @@ o povo contra OJ,serie/crime/drama/eua,2024-04-23
 mad max fury road,filme/scifi/acao/aventura/dieselpunk/pos-apocaliptico,2024-04-26
 xogum,serie/drama/japao,2024-05-12
 history of japanese RPGs,livro/jogos/historia/rpg/computacao/artes/resenhas,2024-05-17
-the quiet duel,filme/drama/kurosawa/japao/classico/cult,2024-05-28
+the quiet duel,filme/drama/kurosawa/japao,2024-05-28
 o castelo animado,filme/japao/ghibli/fantasia/drama/animacao/familia,2024-05-30
 big bang theory s11,serie/comedia/sitcon/familia/hbo/big-bang-theory,2024-05-31
 astros playroom,jogo/plataforma/aventura/coletaton/familia,2024-06-01
@@ -460,3 +460,11 @@ daredevil the man without fear 4,hq/demolidor/super-heroi,2024-10-08
 beetlejuice,serie/beetlejuice/fantasia/comedia/terror,2024-10-13
 Mass Effect 3,jogo/pc/mass-effect/acao/terceira-pessoa/3d/shooter/espaco/scifi,2024-10-13
 batman absulute 1,hq/batman/super-heroi,2024-10-13
+batman and robin year one 1,hq/batman/super-heroi,2024-10-20
+superman birthright 1,hq/superman/super-heroi,2024-10-20
+superman birthright 2,hq/superman/super-heroi,2024-10-20
+superman birthright 3,hq/superman/super-heroi,2024-10-20
+superman birthright 4,hq/superman/super-heroi,2024-10-20
+superman birthright 5,hq/superman/super-heroi,2024-10-20
+superman birthright 6,hq/superman/super-heroi,2024-10-20
+superman birthright 7,hq/superman/super-heroi,2024-10-20
